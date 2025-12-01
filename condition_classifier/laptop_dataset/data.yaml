@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Normal', 'crack', 'fade', 'lines', 'spot', 'undefined']
+
+roboflow:
+  workspace: aanish-usman
+  project: laptop-screen-damage-detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aanish-usman/laptop-screen-damage-detection/dataset/2

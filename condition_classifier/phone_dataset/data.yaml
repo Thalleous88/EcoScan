@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['dead pixel', 'scratch', 'screen crack']
+
+roboflow:
+  workspace: abhinavpoc
+  project: mobile-damage-diagnosis
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abhinavpoc/mobile-damage-diagnosis/dataset/7

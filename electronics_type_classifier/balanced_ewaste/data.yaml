@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 37
+names: ['Battery', 'Blood-Pressure-Monitor', 'Boiler', 'Clothes-Iron', 'Coffee-Machine', 'Computer-Keyboard', 'Computer-Mouse', 'Cooling-Display', 'Desktop-PC', 'Digital-Oscilloscope', 'Drone', 'Electric-Guitar', 'Electronic-Keyboard', 'Flashlight', 'Flat-Panel-Monitor', 'Flat-Panel-TV', 'Glucose-Meter', 'HDD', 'Laptop', 'Microwave', 'Music-Player', 'Oven', 'PCB', 'Photovoltaic-Panel', 'Projector', 'Refrigerator', 'Rotary-Mower', 'Router', 'Server', 'Smartphone', 'Smoke-Detector', 'Straight-Tube-Fluorescent-Lamp', 'Street-Lamp', 'TV-Remote-Control', 'Telephone-Set', 'USB-Flash-Drive', 'Washing-Machine']
+
+roboflow:
+  workspace: electronic-waste-detection
+  project: balanced-e-waste-dataset
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/electronic-waste-detection/balanced-e-waste-dataset/dataset/3
