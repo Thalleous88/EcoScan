@@ -22,7 +22,7 @@ class Config:
     # Model Paths
     YOLO_PATH = "electronics_type_classifier/runs/detect/train4/weights/best.pt"
     CLASSIFIER_PATH = "condition_classifier/defect_classifier_v1.pth"
-    NLP_PATH = "thalleous/EcoScan-NLP/electronics_nlp_model"
+    NLP_PATH = "thalleous/EcoScan-NLP"
     LLM_MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     
     # Token (Only needed for Gemma)
