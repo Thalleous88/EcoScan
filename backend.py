@@ -230,11 +230,11 @@ class DiagnosisPipeline:
                     crop = img.crop(detected_box)
                     visual_condition = self._classify_crop(crop)
                 else:
-                    visual_condition = "N/A (Non-screen device)"
+                    visual_condition = "None (Rely on Text)"
             elif not detected_box:
                 logger.warning("YOLO: No object detected.")
                 device_type = "Unknown (Rely on Text)"
-                visual_condition = "N/A"
+                visual_condition = "None (Rely on Text)"
 
         except Exception as e:
             logger.error(f"Visual pipeline error: {e}")
