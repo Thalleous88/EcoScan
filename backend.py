@@ -281,26 +281,32 @@ class DiagnosisPipeline:
             return self.config.IMG_CLASSES[top_idx.item()]
 
     def _analyze_text(self, text):
-        # --- LAZY LOADING LOGIC (Add this) ---
-        # If the model hasn't been loaded yet, load it now.
+        # 1. Lazy Load: If models aren't loaded, try loading them now
         if self.nlp_model is None:
             logger.info("Lazy loading NLP model...")
             self._load_nlp()
-        # -------------------------------------
 
-        if not hasattr(self, 'nlp_model') or self.nlp_model is None: 
+        # 2. CRITICAL SAFETY CHECK
+        # If _load_nlp failed (e.g. bad path), these will still be None.
+        # We must return an empty list immediately to prevent the crash.
+        if self.nlp_model is None or self.nlp_tokenizer is None:
             return []
             
-        inputs = self.nlp_tokenizer(text, return_tensors="pt", truncation=True, max_length=128).to(self.config.DEVICE)
-        with torch.no_grad():
-            outputs = self.nlp_model(**inputs)
-            probs = torch.sigmoid(outputs.logits).squeeze()
-        
-        detected = []
-        for i, prob in enumerate(probs):
-            if prob > 0.5:
-                detected.append(self.config.NLP_LABELS[i])
-        return detected
+        # 3. Run Analysis (Only if we passed the check above)
+        try:
+            inputs = self.nlp_tokenizer(text, return_tensors="pt", truncation=True, max_length=128).to(self.config.DEVICE)
+            with torch.no_grad():
+                outputs = self.nlp_model(**inputs)
+                probs = torch.sigmoid(outputs.logits).squeeze()
+            
+            detected = []
+            for i, prob in enumerate(probs):
+                if prob > 0.5:
+                    detected.append(self.config.NLP_LABELS[i])
+            return detected
+        except Exception as e:
+            logger.error(f"Error during NLP analysis: {e}")
+            return []
 
     def _classify_crop(self, pil_img):
         tensor = self.img_transforms(pil_img).unsqueeze(0).to(self.config.DEVICE)
