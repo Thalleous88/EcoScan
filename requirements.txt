@@ -1,0 +1,10 @@
+torch
+PIL
+transformers 
+ultralytics 
+timm
+torchvision
+logging
+os
+re
+gc
