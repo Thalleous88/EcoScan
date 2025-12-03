@@ -22,7 +22,7 @@ class Config:
     # Model Paths
     YOLO_PATH = "electronics_type_classifier/runs/detect/train4/weights/best.pt"
     CLASSIFIER_PATH = "condition_classifier/defect_classifier_v1.pth"
-    NLP_PATH = "thalleous/EcoScan-NLP"
+    NLP_PATH = "thalleous/EcoScan-NLP/electronics_nlp_model"
     LLM_MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     
     # Token (Only needed for Gemma)
@@ -189,11 +189,19 @@ class DiagnosisPipeline:
 
     def _load_nlp(self):
         try:
-            self.nlp_tokenizer = DistilBertTokenizer.from_pretrained(self.config.NLP_PATH)
-            self.nlp_model = DistilBertForSequenceClassification.from_pretrained(self.config.NLP_PATH)
+           
+            self.nlp_tokenizer = DistilBertTokenizer.from_pretrained(
+                self.config.NLP_PATH,
+                subfolder="electronics_nlp_model" 
+            )
+            self.nlp_model = DistilBertForSequenceClassification.from_pretrained(
+                self.config.NLP_PATH,
+                subfolder="electronics_nlp_model"  
+            )
             self.nlp_model.to(self.config.DEVICE).eval()
-        except:
-            logger.warning("NLP Model not found.")
+            logger.info(f"NLP Model loaded from {self.config.NLP_PATH}")
+        except Exception as e:
+            logger.error(f"NLP Model FAILED to load: {e}")
 
     def analyze_case(self, image_path, user_comment):
         logger.info(f"Analyzing: {image_path}")
