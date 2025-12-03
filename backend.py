@@ -16,8 +16,7 @@ import logging
 import os
 import re
 import gc
-from huggingface_hub import hf_hub_download
-from llama_cpp import Llama
+from ctransformers import AutoModelForCausalLM
 
 class Config:
     # Model Paths
@@ -54,34 +53,24 @@ logger = logging.getLogger(__name__)
 # --- COMPONENT 1: LLM ADVISOR ---
 class DeviceAdvisorLLM:
     def __init__(self, model_id, hf_token):
-        # 1. DOWNLOAD THE COMPRESSED MODEL (GGUF)
-        # We ignore the original 'model_id' input and fetch the specific fast version
-        repo_id = "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF"
-        filename = "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"
+        logger.info(f"Loading LLM via ctransformers...")
         
-        logger.info(f"Downloading GGUF model: {filename}...")
-        model_path = hf_hub_download(
-            repo_id=repo_id, 
-            filename=filename, 
-            token=hf_token
+        # ctransformers handles the download and loading in one step!
+        self.llm = AutoModelForCausalLM.from_pretrained(
+            "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+            model_file="tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+            model_type="llama",
+            context_length=2048,
+            gpu_layers=0  # Force CPU usage
         )
-
-        # 2. LOAD THE FAST ENGINE
-        logger.info("Loading Llama-cpp engine...")
-        self.llm = Llama(
-            model_path=model_path,
-            n_ctx=2048,      # Context window
-            n_threads=2,     # Use 2 CPU cores (Free Tier limit)
-            verbose=False
-        )
-        logger.info("GGUF LLM Loaded successfully.")
+        logger.info("LLM Loaded successfully.")
 
     def generate_recommendation(self, device_type, visual_condition, nlp_issues):
-        # Clean inputs (same as your old code)
+        # 1. Clean Inputs
         visual_clean = visual_condition.replace("_", " ").title()
         issues_clean = ", ".join([x.replace("_", " ") for x in nlp_issues]) if nlp_issues else "None"
 
-        # 3. PROMPT (Keep your exact prompt structure)
+        # 2. Prompt (Same as before)
         prompt = f"""<|system|>
 You are a technical diagnostic tool. Output the status in the exact format shown. 
 Do not provide repair instructions or steps. Keep descriptions brief.
@@ -107,33 +96,23 @@ Diagnosis:
 <|assistant|>
 """
 
-        # 4. GENERATE (This is the part that changes significantly)
-        # Instead of tokenizer.encode -> model.generate -> decode...
-        # We just ask the GGUF engine for the text directly.
-        output = self.llm(
+        # 3. Generate
+        # ctransformers returns the string directly! No complex decoding needed.
+        generated_text = self.llm(
             prompt,
-            max_tokens=250,
+            max_new_tokens=250,
             temperature=0.2,
             top_p=0.9,
-            repeat_penalty=1.2,
-            stop=["</s>", "<|user|>"], # Stop generating if it tries to start a new user turn
-            echo=False # Do not repeat the prompt in the answer
+            repetition_penalty=1.2,
+            stop=["</s>", "<|user|>"] # Stop if it tries to generate a user turn
         )
 
-        # Extract the text
-        generated_text = output['choices'][0]['text']
-
-        # Force "Diagnosis:" prefix if missing
+        # 4. Cleanup & Format
         final_text = "Diagnosis: " + generated_text if not generated_text.strip().startswith("Diagnosis:") else generated_text
-            
-        # 5. FORMAT OUTPUT (Reuse your existing helper function)
         return self._format_output(final_text)
 
     def _format_output(self, text):
-        """
-        Parses the raw text into a clean string.
-        (This method stays EXACTLY the same as your code)
-        """
+        # (Keep this helper method exactly the same as you have it now)
         lines = text.split('\n')
         result = {}
         current_key = "Summary"
