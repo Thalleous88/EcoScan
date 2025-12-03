@@ -1,0 +1,1280 @@
+text,Power_Failure,Battery_Charging,Display_Visual,Audio_Sound,Overheating_Thermal,Connectivity_Signal,Water_Liquid_Damage,Mechanical_Motor,Input_Controls,Software_Error,Data_Storage,Sensor_Accuracy
+My monitor won't turn on right after I plugged it in. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my tablet touch input fails.,0,0,0,0,0,0,0,0,1,0,0,0
+Vacuum has been got wet and stopped working lately.,0,0,0,0,0,0,1,0,0,0,0,0
+The camera buttons not registering since yesterday. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+The printer shuts down due to heat.,0,0,0,0,1,0,0,0,0,0,0,0
+Monitor heart rate incorrect.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my drone GPS wrong location after it fell. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+"Thermostat battery indicator incorrect, and I noticed my thermostat network drops. I need this fixed.",0,1,0,0,0,1,0,0,0,0,0,0
+Hard drive no cellular signal after it fell.,0,0,0,0,0,1,0,0,0,0,0,0
+"My e-scooter touchscreen not responding, and I noticed my e-scooter microphone not working.",0,0,1,1,0,0,0,0,0,0,0,0
+"My phone gets very hot, and I noticed my phone can't save files. I need this fixed.",0,0,0,0,1,0,0,0,0,0,1,0
+Gaming console data disappeared.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my camera disk making clicking noises, and Camera has been buttons not registering lately.",0,0,0,0,0,0,0,0,1,0,1,0
+The hard drive mechanical grinding noise and it's getting worse every day.,0,0,0,0,0,0,0,1,0,0,0,0
+Monitor has been double-press issue lately.,0,0,0,0,0,0,0,0,1,0,0,0
+Speaker has been makes clicking noise lately and it's getting worse every day.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my camera screen is flickering.,0,0,1,0,0,0,0,0,0,0,0,0
+"Hard drive has been dropped in water lately, and Hard drive has been fails to start lately.",1,0,0,0,0,0,1,0,0,0,0,0
+Smartwatch double-press issue. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+My router won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+Tablet has been image is blurry lately.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my thermostat has no power.,1,0,0,0,0,0,0,0,0,0,0,0
+My router won't boot after a recent update.,1,0,0,0,0,0,0,0,0,0,0,0
+"I noticed my laptop no internet connection, and Laptop won't turn on.",1,0,0,0,0,1,0,0,0,0,0,0
+The vacuum proximity sensor fails after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my e-scooter dropped in water since yesterday.,0,0,0,0,0,0,1,0,0,0,0,0
+My speaker can't find networks.,0,0,0,0,0,1,0,0,0,0,0,0
+"Monitor firmware update failed, and My monitor heart rate incorrect.",0,0,0,0,0,0,0,0,0,1,0,1
+Tv echo and static. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+"Gaming console propeller is stuck, and Gaming console app crashes.",0,0,0,0,0,0,0,1,0,1,0,0
+Laptop thermal throttling during use right after I plugged it in.,0,0,0,0,1,0,0,0,0,0,0,0
+"Tv has been gives wrong readings lately, and The TV makes clicking noise. I need this fixed.",0,0,0,1,0,0,0,0,0,0,0,1
+"The router overheats, and The router corroded port after spill.",0,0,0,0,1,0,1,0,0,0,0,0
+"I noticed my tablet network drops, and I noticed my tablet touchscreen not responding. I need this fixed. Please help.",0,0,1,0,0,1,0,0,0,0,0,0
+The vacuum app crashes while charging.,0,0,0,0,0,0,0,0,0,1,0,0
+Smartwatch has been storage full unexpectedly lately since yesterday.,0,0,0,0,0,0,0,0,0,0,1,0
+"My earbuds software freezes, and Earbuds loud grinding noise. I need this fixed.",0,0,0,1,0,0,0,0,0,1,0,0
+Tv has been shuts off randomly lately.,1,0,0,0,0,0,0,0,0,0,0,0
+Fitness tracker has been data disappeared lately right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,1,0
+"Tv has been disk making clicking noises lately, and I noticed my TV motor not spinning.",0,0,0,0,0,0,0,1,0,0,1,0
+Thermostat no internet connection.,0,0,0,0,0,1,0,0,0,0,0,0
+"The fitness tracker error code on startup, and Fitness tracker echo and static. Please help.",0,0,0,1,0,0,0,0,0,1,0,0
+Camera SD card not recognized while charging.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my router gives wrong readings.,0,0,0,0,0,0,0,0,0,0,0,1
+E-scooter GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my camera speaker crackles.,0,0,0,1,0,0,0,0,0,0,0,0
+"The gaming console no sound, and Gaming console got wet and stopped working.",0,0,0,1,0,0,1,0,0,0,0,0
+My speaker sensor not accurate since yesterday.,0,0,0,0,0,0,0,0,0,0,0,1
+Speaker liquid damage.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my gaming console doesn't power up.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my router can't save files.,0,0,0,0,0,0,0,0,0,0,1,0
+Tablet has been OS won't load lately.,0,0,0,0,0,0,0,0,0,1,0,0
+"E-scooter has been battery overheating lately, and I noticed my e-scooter drum won't rotate.",0,0,0,0,1,0,0,1,0,0,0,0
+E-scooter app crashes while charging.,0,0,0,0,0,0,0,0,0,1,0,0
+Tablet GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+My gaming console mechanical grinding noise.,0,0,0,0,0,0,0,1,0,0,0,0
+The camera roller jammed and I tried restarting.,0,0,0,0,0,0,0,1,0,0,0,0
+Laptop has been won't charge lately after it fell.,0,1,0,0,0,0,0,0,0,0,0,0
+"My smartwatch loud grinding noise, and Smartwatch mechanical grinding noise.",0,0,0,1,0,0,0,1,0,0,0,0
+My washing machine shuts down due to heat after a recent update.,0,0,0,0,1,0,0,0,0,0,0,0
+"My fitness tracker keys are sticky, and My fitness tracker proximity sensor fails.",0,0,0,0,0,0,0,0,1,0,0,1
+I noticed my vacuum got wet and stopped working right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+"The vacuum no lights but charger connected, and My vacuum gets very hot.",1,0,0,0,1,0,0,0,0,0,0,0
+Gaming console motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+"The router screen is flickering, and The router SD card not recognized.",0,0,1,0,0,0,0,0,0,0,1,0
+My smartwatch won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my fitness tracker speaker muffled after water since yesterday.,0,0,0,0,0,0,1,0,0,0,0,0
+Drone has been files corrupted lately.,0,0,0,0,0,0,0,0,0,0,1,0
+The monitor motion sensor false triggers right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+"My earbuds drum won't rotate, and I noticed my earbuds corroded port after spill.",0,0,0,0,0,0,1,1,0,0,0,0
+The washing machine won't turn on.,1,0,0,0,0,0,0,0,0,0,0,0
+The router heart rate incorrect.,0,0,0,0,0,0,0,0,0,0,0,1
+My speaker can't find networks while charging.,0,0,0,0,0,1,0,0,0,0,0,0
+Printer gets very hot and it's getting worse every day.,0,0,0,0,1,0,0,0,0,0,0,0
+Vacuum has been trackpad stops working lately right after I plugged it in.,0,0,0,0,0,0,0,0,1,0,0,0
+Tablet blue screen.,0,0,0,0,0,0,0,0,0,1,0,0
+"The washing machine loses signal, and My washing machine got wet and stopped working.",0,0,0,0,0,1,1,0,0,0,0,0
+The tablet storage full unexpectedly right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,1,0
+Vacuum has been sensor not accurate lately.,0,0,0,0,0,0,0,0,0,0,0,1
+"Router battery died in minutes, and The router firmware update failed.",0,1,0,0,0,0,0,0,0,1,0,0
+Earbuds has been mechanical grinding noise lately.,0,0,0,0,0,0,0,1,0,0,0,0
+"Smartwatch has been trackpad stops working lately, and My smartwatch dropped in water.",0,0,0,0,0,0,1,0,1,0,0,0
+My tablet power LED is on but device is dead.,1,0,0,0,0,0,0,0,0,0,0,0
+Tv firmware update failed right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+"My washing machine sensor not accurate, and My washing machine trackpad stops working. I need this fixed.",0,0,0,0,0,0,0,0,1,0,0,1
+The speaker won't hold charge.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my e-scooter doesn't power up.,1,0,0,0,0,0,0,0,0,0,0,0
+My e-scooter fails to charge.,0,1,0,0,0,0,0,0,0,0,0,0
+Camera touchscreen not responding.,0,0,1,0,0,0,0,0,0,0,0,0
+Router has been GPS wrong location lately since yesterday.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my earbuds trackpad stops working after it fell.,0,0,0,0,0,0,0,0,1,0,0,0
+Thermostat has been buttons not registering lately. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+"Hard drive has been dropped in water lately, and The hard drive error code on startup.",0,0,0,0,0,0,1,0,0,1,0,0
+The e-scooter no lights but charger connected while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+"The washing machine makes clicking noise, and I noticed my washing machine proximity sensor fails.",0,0,0,1,0,0,0,0,0,0,0,1
+Vacuum has been error code on startup lately after it fell.,0,0,0,0,0,0,0,0,0,1,0,0
+The hard drive image is blurry.,0,0,1,0,0,0,0,0,0,0,0,0
+Smartwatch has been corroded port after spill lately.,0,0,0,0,0,0,1,0,0,0,0,0
+"My e-scooter hard drive not detected, and E-scooter has been temperature sensor off lately. Please help.",0,0,0,0,0,0,0,0,0,0,1,1
+"My earbuds error code on startup, and Earbuds has been motor not spinning lately.",0,0,0,0,0,0,0,1,0,1,0,0
+"Router has been joystick drifts lately, and I noticed my router got wet and stopped working.",0,0,0,0,0,0,1,0,1,0,0,0
+Router has been thermal throttling during use lately.,0,0,0,0,1,0,0,0,0,0,0,0
+"Smartwatch has been fails to charge lately, and Smartwatch stuck in bootloop. I need this fixed.",0,1,0,0,0,0,0,0,0,1,0,0
+"My smartwatch shuts off randomly, and The smartwatch GPS wrong location.",1,0,0,0,0,0,0,0,0,0,0,1
+Router OS won't load.,0,0,0,0,0,0,0,0,0,1,0,0
+"The vacuum image is blurry, and Vacuum has been OS won't load lately. I need this fixed.",0,0,1,0,0,0,0,0,0,1,0,0
+I noticed my router fails to charge since yesterday.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my speaker gives wrong readings.,0,0,0,0,0,0,0,0,0,0,0,1
+Phone motor buzzing.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my thermostat image is blurry.,0,0,1,0,0,0,0,0,0,0,0,0
+Router data disappeared and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,1,0
+Monitor image is blurry since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+"The vacuum files corrupted, and The vacuum battery drains quickly. I need this fixed.",0,1,0,0,0,0,0,0,0,0,1,0
+"Router has been app crashes lately, and I noticed my router battery drains quickly.",0,1,0,0,0,0,0,0,0,1,0,0
+"The TV Wi-Fi disconnects, and My TV proximity sensor fails.",0,0,0,0,0,1,0,0,0,0,0,1
+E-scooter has been Bluetooth won't pair lately right after I plugged it in.,0,0,0,0,0,1,0,0,0,0,0,0
+"My TV echo and static, and Tv has been disk making clicking noises lately.",0,0,0,1,0,0,0,0,0,0,1,0
+"Hard drive fan runs loud constantly, and My hard drive disk making clicking noises. Please help.",0,0,0,0,1,0,0,0,0,0,1,0
+Drone has been fails to charge lately.,0,1,0,0,0,0,0,0,0,0,0,0
+Vacuum has been battery swelled lately right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+My fitness tracker won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+Camera roller jammed and it's getting worse every day.,0,0,0,0,0,0,0,1,0,0,0,0
+The smartwatch app crashes and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+I noticed my tablet GPS wrong location and I tried restarting.,0,0,0,0,0,0,0,0,0,0,0,1
+"The speaker echo and static, and The speaker files corrupted.",0,0,0,1,0,0,0,0,0,0,1,0
+E-scooter has been network drops lately after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my e-scooter doesn't power up.,1,0,0,0,0,0,0,0,0,0,0,0
+"Router has been Wi-Fi disconnects lately, and Router has been screen is flickering lately. I need this fixed.",0,0,1,0,0,1,0,0,0,0,0,0
+The smartwatch proximity sensor fails after a recent update. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+Drone keys are sticky and I tried restarting.,0,0,0,0,0,0,0,0,1,0,0,0
+"I noticed my gaming console has no power, and Gaming console has been can't save files lately. Please help.",1,0,0,0,0,0,0,0,0,0,1,0
+"Monitor speaker muffled after water, and Monitor battery died in minutes. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+"I noticed my TV disk making clicking noises, and The TV heart rate incorrect. Please help.",0,0,0,0,0,0,0,0,0,0,1,1
+Thermostat has been buttons not registering lately after it fell.,0,0,0,0,0,0,0,0,1,0,0,0
+My printer keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my drone loud grinding noise.,0,0,0,1,0,0,0,0,0,0,0,0
+Smartwatch has been no internet connection lately.,0,0,0,0,0,1,0,0,0,0,0,0
+"Router has been won't charge lately, and I noticed my router speaker crackles.",0,1,0,1,0,0,0,0,0,0,0,0
+The hard drive dropped in water right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+"The drone Bluetooth won't pair, and The drone heart rate incorrect.",0,0,0,0,0,1,0,0,0,0,0,1
+Vacuum has been temperature sensor off lately.,0,0,0,0,0,0,0,0,0,0,0,1
+"Vacuum battery indicator incorrect, and Vacuum proximity sensor fails. I need this fixed.",0,1,0,0,0,0,0,0,0,0,0,1
+I noticed my hard drive display has color tint.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my e-scooter touch input fails while charging.,0,0,0,0,0,0,0,0,1,0,0,0
+"Hard drive has been storage full unexpectedly lately, and Hard drive error code on startup. I need this fixed.",0,0,0,0,0,0,0,0,0,1,1,0
+Vacuum has been gives wrong readings lately while charging.,0,0,0,0,0,0,0,0,0,0,0,1
+The fitness tracker fails to start.,1,0,0,0,0,0,0,0,0,0,0,0
+Thermostat has been won't charge lately while charging.,0,1,0,0,0,0,0,0,0,0,0,0
+The fitness tracker firmware update failed after it fell.,0,0,0,0,0,0,0,0,0,1,0,0
+I noticed my tablet fails to start while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+The fitness tracker screen fogged after water since yesterday.,0,0,0,0,0,0,1,0,0,0,0,0
+"Tablet motor not spinning, and My tablet shuts off randomly. Please help.",1,0,0,0,0,0,0,1,0,0,0,0
+Earbuds propeller is stuck since yesterday.,0,0,0,0,0,0,0,1,0,0,0,0
+Printer has been Bluetooth won't pair lately.,0,0,0,0,0,1,0,0,0,0,0,0
+"Router disk making clicking noises, and The router fails to charge.",0,1,0,0,0,0,0,0,0,0,1,0
+Monitor has been loud grinding noise lately.,0,0,0,1,0,0,0,0,0,0,0,0
+Thermostat has been screen ghost touches lately.,0,0,1,0,0,0,0,0,0,0,0,0
+The camera liquid damage.,0,0,0,0,0,0,1,0,0,0,0,0
+The hard drive won't boot while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my printer motor buzzing.,0,0,0,0,0,0,0,1,0,0,0,0
+The hard drive Wi-Fi disconnects and it's getting worse every day. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+"Washing machine has been microphone not working lately, and The washing machine touch input fails. Please help.",0,0,0,1,0,0,0,0,1,0,0,0
+Router has been speaker crackles lately and it's getting worse every day.,0,0,0,1,0,0,0,0,0,0,0,0
+Smartwatch got wet and stopped working right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+"My hard drive speaker muffled after water, and Hard drive network drops.",0,0,0,0,0,1,1,0,0,0,0,0
+Monitor screen is black right after I plugged it in.,0,0,1,0,0,0,0,0,0,0,0,0
+Thermostat has been got wet and stopped working lately and I tried restarting. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+My earbuds trackpad stops working since yesterday.,0,0,0,0,0,0,0,0,1,0,0,0
+Washing machine audio cuts out.,0,0,0,1,0,0,0,0,0,0,0,0
+"My router image is blurry, and Router proximity sensor fails. I need this fixed.",0,0,1,0,0,0,0,0,0,0,0,1
+I noticed my vacuum error code on startup and it's getting worse every day.,0,0,0,0,0,0,0,0,0,1,0,0
+Fitness tracker has been motor buzzing lately and I tried restarting.,0,0,0,0,0,0,0,1,0,0,0,0
+"Tablet drum won't rotate, and My tablet dead pixels.",0,0,1,0,0,0,0,1,0,0,0,0
+Router won't spin while charging.,0,0,0,0,0,0,0,1,0,0,0,0
+Vacuum remote buttons don't work.,0,0,0,0,0,0,0,0,1,0,0,0
+My gaming console screen is black.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my washing machine loses signal.,0,0,0,0,0,1,0,0,0,0,0,0
+"Laptop double-press issue, and Laptop has been disk making clicking noises lately. I need this fixed.",0,0,0,0,0,0,0,0,1,0,1,0
+The camera OS won't load.,0,0,0,0,0,0,0,0,0,1,0,0
+The gaming console joystick drifts.,0,0,0,0,0,0,0,0,1,0,0,0
+"I noticed my smartwatch joystick drifts, and Smartwatch app crashes.",0,0,0,0,0,0,0,0,1,1,0,0
+Thermostat SD card not recognized and it's getting worse every day. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"My drone no sound, and The drone overheats.",0,0,0,1,1,0,0,0,0,0,0,0
+"My TV speaker crackles, and The TV Wi-Fi disconnects.",0,0,0,1,0,1,0,0,0,0,0,0
+"I noticed my TV touch input fails, and My TV disk making clicking noises. I need this fixed.",0,0,0,0,0,0,0,0,1,0,1,0
+Camera has been display has color tint lately. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+The thermostat shuts off randomly.,1,0,0,0,0,0,0,0,0,0,0,0
+The vacuum roller jammed.,0,0,0,0,0,0,0,1,0,0,0,0
+"Camera propeller is stuck, and Camera has been touchscreen not responding lately.",0,0,1,0,0,0,0,1,0,0,0,0
+I noticed my printer speaker muffled after water.,0,0,0,0,0,0,1,0,0,0,0,0
+My router disk making clicking noises since yesterday. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+Speaker has been distorted audio lately.,0,0,0,1,0,0,0,0,0,0,0,0
+The camera GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+Fitness tracker Wi-Fi disconnects.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my tablet network drops.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my TV won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+"Earbuds has been trackpad stops working lately, and The earbuds OS won't load.",0,0,0,0,0,0,0,0,1,1,0,0
+"The vacuum no cellular signal, and My vacuum storage full unexpectedly.",0,0,0,0,0,1,0,0,0,0,1,0
+"I noticed my tablet won't charge, and Tablet OS won't load.",0,1,0,0,0,0,0,0,0,1,0,0
+Earbuds battery overheating since yesterday.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my TV shuts down due to heat.,0,0,0,0,1,0,0,0,0,0,0,0
+My e-scooter motor not spinning.,0,0,0,0,0,0,0,1,0,0,0,0
+Vacuum has been fan runs loud constantly lately.,0,0,0,0,1,0,0,0,0,0,0,0
+Camera has been display shows lines lately.,0,0,1,0,0,0,0,0,0,0,0,0
+My camera battery indicator incorrect.,0,1,0,0,0,0,0,0,0,0,0,0
+"Tablet has been fails to start lately, and Tablet remote buttons don't work.",1,0,0,0,0,0,0,0,1,0,0,0
+Camera has been keys are sticky lately.,0,0,0,0,0,0,0,0,1,0,0,0
+"The earbuds fails to charge, and The earbuds fan runs loud constantly.",0,1,0,0,1,0,0,0,0,0,0,0
+Hard drive has been storage full unexpectedly lately.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my earbuds audio cuts out and I tried restarting.,0,0,0,1,0,0,0,0,0,0,0,0
+The router display shows lines. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+"My fitness tracker overheats, and Fitness tracker can't find networks.",0,0,0,0,1,1,0,0,0,0,0,0
+Tv has been blue screen lately.,0,0,0,0,0,0,0,0,0,1,0,0
+"The washing machine won't spin, and Washing machine Wi-Fi disconnects.",0,0,0,0,0,1,0,1,0,0,0,0
+"Printer has been hard drive not detected lately, and The printer OS won't load.",0,0,0,0,0,0,0,0,0,1,1,0
+My vacuum battery died in minutes right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+Tablet has been trackpad stops working lately.,0,0,0,0,0,0,0,0,1,0,0,0
+Hard drive has been won't boot lately.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my earbuds proximity sensor fails and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,0,1
+Monitor temperature sensor off.,0,0,0,0,0,0,0,0,0,0,0,1
+Laptop has been overheats lately after it fell.,0,0,0,0,1,0,0,0,0,0,0,0
+Hard drive has been gives wrong readings lately.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my router display has color tint.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my hard drive battery died in minutes and I tried restarting. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+My e-scooter disk making clicking noises since yesterday. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+My thermostat battery died in minutes and I tried restarting.,0,1,0,0,0,0,0,0,0,0,0,0
+My printer motor buzzing after it fell.,0,0,0,0,0,0,0,1,0,0,0,0
+"I noticed my monitor distorted audio, and I noticed my monitor fails to charge.",0,1,0,1,0,0,0,0,0,0,0,0
+"I noticed my fitness tracker no internet connection, and My fitness tracker mechanical grinding noise.",0,0,0,0,0,1,0,1,0,0,0,0
+My speaker motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my smartwatch speaker muffled after water, and Smartwatch no lights but charger connected. Please help.",1,0,0,0,0,0,1,0,0,0,0,0
+"I noticed my fitness tracker fails to start, and Fitness tracker has been heart rate incorrect lately.",1,0,0,0,0,0,0,0,0,0,0,1
+I noticed my vacuum firmware update failed.,0,0,0,0,0,0,0,0,0,1,0,0
+"I noticed my laptop buttons not registering, and My laptop won't spin.",0,0,0,0,0,0,0,1,1,0,0,0
+"Speaker got wet and stopped working, and My speaker GPS wrong location.",0,0,0,0,0,0,1,0,0,0,0,1
+"Tv heart rate incorrect, and The TV gets very hot. Please help.",0,0,0,0,1,0,0,0,0,0,0,1
+Router has been drum won't rotate lately right after I plugged it in.,0,0,0,0,0,0,0,1,0,0,0,0
+Fitness tracker has been battery indicator incorrect lately and I tried restarting.,0,1,0,0,0,0,0,0,0,0,0,0
+"I noticed my gaming console heart rate incorrect, and Gaming console device smokes.",0,0,0,0,1,0,0,0,0,0,0,1
+E-scooter display has color tint after it fell. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+My router error code on startup right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+Laptop has been echo and static lately right after I plugged it in. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+"Router firmware update failed, and I noticed my router liquid damage. I need this fixed.",0,0,0,0,0,0,1,0,0,1,0,0
+Gaming console joystick drifts.,0,0,0,0,0,0,0,0,1,0,0,0
+The router SD card not recognized.,0,0,0,0,0,0,0,0,0,0,1,0
+"Monitor has been corroded port after spill lately, and The monitor stuck in bootloop.",0,0,0,0,0,0,1,0,0,1,0,0
+"The phone remote buttons don't work, and My phone battery swelled.",0,1,0,0,0,0,0,0,1,0,0,0
+The router remote buttons don't work and it's getting worse every day.,0,0,0,0,0,0,0,0,1,0,0,0
+"The router battery swelled, and The router loses signal.",0,1,0,0,0,1,0,0,0,0,0,0
+I noticed my thermostat doesn't power up after it fell.,1,0,0,0,0,0,0,0,0,0,0,0
+My TV mechanical grinding noise after a recent update.,0,0,0,0,0,0,0,1,0,0,0,0
+"The hard drive storage full unexpectedly, and The hard drive loses signal. I need this fixed.",0,0,0,0,0,1,0,0,0,0,1,0
+Drone battery drains quickly and it's getting worse every day.,0,1,0,0,0,0,0,0,0,0,0,0
+"I noticed my tablet no lights but charger connected, and My tablet hard drive not detected.",1,0,0,0,0,0,0,0,0,0,1,0
+Smartwatch has been doesn't power up lately after a recent update. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+Vacuum battery overheating and I tried restarting.,0,0,0,0,1,0,0,0,0,0,0,0
+"The router gives wrong readings, and My router double-press issue. I need this fixed.",0,0,0,0,0,0,0,0,1,0,0,1
+My e-scooter screen is flickering since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+"Thermostat motor not spinning, and My thermostat liquid damage. Please help.",0,0,0,0,0,0,1,1,0,0,0,0
+Camera image is blurry. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my monitor app crashes.,0,0,0,0,0,0,0,0,0,1,0,0
+"My smartwatch won't spin, and My smartwatch echo and static.",0,0,0,1,0,0,0,1,0,0,0,0
+The drone echo and static. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my earbuds battery died in minutes after it fell.,0,1,0,0,0,0,0,0,0,0,0,0
+Printer mechanical grinding noise after it fell.,0,0,0,0,0,0,0,1,0,0,0,0
+My gaming console fan runs loud constantly.,0,0,0,0,1,0,0,0,0,0,0,0
+My monitor files corrupted and I tried restarting.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my printer won't spin, and My printer thermal throttling during use.",0,0,0,0,1,0,0,1,0,0,0,0
+"My tablet remote buttons don't work, and Tablet loses signal. Please help.",0,0,0,0,0,1,0,0,1,0,0,0
+"My tablet display shows lines, and Tablet has been makes clicking noise lately.",0,0,1,1,0,0,0,0,0,0,0,0
+My earbuds touchscreen not responding.,0,0,1,0,0,0,0,0,0,0,0,0
+"I noticed my earbuds network drops, and Earbuds double-press issue.",0,0,0,0,0,1,0,0,1,0,0,0
+My gaming console can't find networks while charging.,0,0,0,0,0,1,0,0,0,0,0,0
+My TV battery swelled.,0,1,0,0,0,0,0,0,0,0,0,0
+The drone mechanical grinding noise.,0,0,0,0,0,0,0,1,0,0,0,0
+My speaker SD card not recognized.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my earbuds distorted audio. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+My router data disappeared since yesterday.,0,0,0,0,0,0,0,0,0,0,1,0
+My TV screen fogged after water after a recent update.,0,0,0,0,0,0,1,0,0,0,0,0
+Tablet can't find networks and I tried restarting.,0,0,0,0,0,1,0,0,0,0,0,0
+"Tablet screen is black, and Tablet files corrupted.",0,0,1,0,0,0,0,0,0,0,1,0
+E-scooter image is blurry.,0,0,1,0,0,0,0,0,0,0,0,0
+My hard drive sensor not accurate after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+"Hard drive trackpad stops working, and Hard drive has been no sound lately.",0,0,0,1,0,0,0,0,1,0,0,0
+"Router has been keys are sticky lately, and Router device smokes.",0,0,0,0,1,0,0,0,1,0,0,0
+I noticed my vacuum propeller is stuck.,0,0,0,0,0,0,0,1,0,0,0,0
+"Tablet has been disk making clicking noises lately, and The tablet loud grinding noise. I need this fixed.",0,0,0,1,0,0,0,0,0,0,1,0
+Printer stuck in bootloop after it fell.,0,0,0,0,0,0,0,0,0,1,0,0
+Gaming console loud grinding noise and it's getting worse every day. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+"The router got wet and stopped working, and My router won't charge. Please help.",0,1,0,0,0,0,1,0,0,0,0,0
+The drone screen fogged after water. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+"I noticed my fitness tracker distorted audio, and I noticed my fitness tracker won't boot.",1,0,0,1,0,0,0,0,0,0,0,0
+The speaker files corrupted since yesterday.,0,0,0,0,0,0,0,0,0,0,1,0
+"The drone no internet connection, and My drone touchscreen not responding. I need this fixed.",0,0,1,0,0,1,0,0,0,0,0,0
+Printer has been loses signal lately and I tried restarting.,0,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my camera firmware update failed, and Camera won't hold charge.",0,1,0,0,0,0,0,0,0,1,0,0
+"Thermostat software freezes, and The thermostat battery overheating.",0,0,0,0,1,0,0,0,0,1,0,0
+My TV touchscreen not responding. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+The phone Wi-Fi disconnects after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+Camera has been disk making clicking noises lately since yesterday.,0,0,0,0,0,0,0,0,0,0,1,0
+The camera touchscreen not responding.,0,0,1,0,0,0,0,0,0,0,0,0
+"I noticed my hard drive speaker muffled after water, and The hard drive data disappeared. Please help.",0,0,0,0,0,0,1,0,0,0,1,0
+Gaming console has been Bluetooth won't pair lately after a recent update. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+"My smartwatch gets very hot, and Smartwatch fails to charge. I need this fixed.",0,1,0,0,1,0,0,0,0,0,0,0
+"I noticed my speaker no sound, and I noticed my speaker doesnt power up. Please help.",1,0,0,1,0,0,0,0,0,0,0,0
+Hard drive has been liquid damage lately right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+"Laptop has been thermal throttling during use lately, and The laptop trackpad stops working.",0,0,0,0,1,0,0,0,1,0,0,0
+"I noticed my phone corroded port after spill, and Phone gets very hot. I need this fixed.",0,0,0,0,1,0,1,0,0,0,0,0
+My drone distorted audio.,0,0,0,1,0,0,0,0,0,0,0,0
+The speaker mechanical grinding noise.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my vacuum battery overheating right after I plugged it in.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my laptop liquid damage after a recent update.,0,0,0,0,0,0,1,0,0,0,0,0
+Phone data disappeared.,0,0,0,0,0,0,0,0,0,0,1,0
+"The gaming console distorted audio, and The gaming console corroded port after spill.",0,0,0,1,0,0,1,0,0,0,0,0
+The camera fails to start.,1,0,0,0,0,0,0,0,0,0,0,0
+Monitor Bluetooth won't pair.,0,0,0,0,0,1,0,0,0,0,0,0
+Thermostat has been screen fogged after water lately.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my phone motor not spinning after it fell.,0,0,0,0,0,0,0,1,0,0,0,0
+Monitor has been error code on startup lately after a recent update.,0,0,0,0,0,0,0,0,0,1,0,0
+My speaker has no power.,1,0,0,0,0,0,0,0,0,0,0,0
+"Camera has been won't spin lately, and Camera battery swelled.",0,1,0,0,0,0,0,1,0,0,0,0
+Tv has been overheats lately. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my hard drive keys are sticky and I tried restarting.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my e-scooter GPS wrong location right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+My printer stuck in bootloop and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+I noticed my vacuum microphone not working.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my drone sensor not accurate after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+Router has been motor not spinning lately while charging.,0,0,0,0,0,0,0,1,0,0,0,0
+Speaker software freezes since yesterday.,0,0,0,0,0,0,0,0,0,1,0,0
+"I noticed my speaker fan runs loud constantly, and Speaker proximity sensor fails.",0,0,0,0,1,0,0,0,0,0,0,1
+My smartwatch SD card not recognized while charging.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my vacuum battery drains quickly since yesterday.,0,1,0,0,0,0,0,0,0,0,0,0
+"My laptop blue screen, and I noticed my laptop roller jammed. I need this fixed.",0,0,0,0,0,0,0,1,0,1,0,0
+Earbuds has been temperature sensor off lately.,0,0,0,0,0,0,0,0,0,0,0,1
+Hard drive has been Bluetooth won't pair lately. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+The camera dropped in water.,0,0,0,0,0,0,1,0,0,0,0,0
+"I noticed my printer image is blurry, and I noticed my printer fails to start.",1,0,1,0,0,0,0,0,0,0,0,0
+"My monitor mechanical grinding noise, and Monitor has been joystick drifts lately.",0,0,0,0,0,0,0,1,1,0,0,0
+I noticed my fitness tracker firmware update failed. Please help.,0,0,0,0,0,0,0,0,0,1,0,0
+"Phone keys are sticky, and My phone battery overheating.",0,0,0,0,1,0,0,0,1,0,0,0
+"My camera makes clicking noise, and My camera mechanical grinding noise.",0,0,0,1,0,0,0,1,0,0,0,0
+Laptop fan runs loud constantly and I tried restarting.,0,0,0,0,1,0,0,0,0,0,0,0
+My router software freezes.,0,0,0,0,0,0,0,0,0,1,0,0
+"Camera hard drive not detected, and Camera has been shuts off randomly lately.",1,0,0,0,0,0,0,0,0,0,1,0
+Phone no cellular signal and it's getting worse every day.,0,0,0,0,0,1,0,0,0,0,0,0
+My vacuum doesn't power up and I tried restarting.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my router corroded port after spill since yesterday.,0,0,0,0,0,0,1,0,0,0,0,0
+"The drone loud grinding noise, and Drone has been won't hold charge lately. I need this fixed.",0,1,0,1,0,0,0,0,0,0,0,0
+Thermostat has been Wi-Fi disconnects lately and it's getting worse every day.,0,0,0,0,0,1,0,0,0,0,0,0
+Printer remote buttons don't work after it fell.,0,0,0,0,0,0,0,0,1,0,0,0
+Camera has been thermal throttling during use lately after a recent update.,0,0,0,0,1,0,0,0,0,0,0,0
+Vacuum sensor not accurate and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my laptop can't find networks, and The laptop SD card not recognized. Please help.",0,0,0,0,0,1,0,0,0,0,1,0
+I noticed my fitness tracker doesn't power up.,1,0,0,0,0,0,0,0,0,0,0,0
+Earbuds has been stuck in bootloop lately and it's getting worse every day. Please help.,0,0,0,0,0,0,0,0,0,1,0,0
+E-scooter SD card not recognized.,0,0,0,0,0,0,0,0,0,0,1,0
+"The hard drive gets very hot, and The hard drive remote buttons don't work.",0,0,0,0,1,0,0,0,1,0,0,0
+Thermostat has been battery indicator incorrect lately right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+"My TV microphone not working, and Tv has been no cellular signal lately. I need this fixed.",0,0,0,1,0,1,0,0,0,0,0,0
+My smartwatch dead pixels and I tried restarting.,0,0,1,0,0,0,0,0,0,0,0,0
+The smartwatch fails to start.,1,0,0,0,0,0,0,0,0,0,0,0
+"Phone has been got wet and stopped working lately, and The phone display shows lines.",0,0,1,0,0,0,1,0,0,0,0,0
+I noticed my gaming console no lights but charger connected.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my drone motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+"Smartwatch liquid damage, and Smartwatch has been microphone not working lately.",0,0,0,1,0,0,1,0,0,0,0,0
+My monitor fan runs loud constantly.,0,0,0,0,1,0,0,0,0,0,0,0
+Gaming console makes clicking noise after it fell. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+Earbuds thermal throttling during use. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+Printer has been firmware update failed lately.,0,0,0,0,0,0,0,0,0,1,0,0
+"My drone double-press issue, and I noticed my drone heart rate incorrect.",0,0,0,0,0,0,0,0,1,0,0,1
+The laptop loud grinding noise.,0,0,0,1,0,0,0,0,0,0,0,0
+"I noticed my fitness tracker blue screen, and The fitness tracker battery drains quickly.",0,1,0,0,0,0,0,0,0,1,0,0
+Tv double-press issue.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my drone echo and static since yesterday.,0,0,0,1,0,0,0,0,0,0,0,0
+Tv no sound and I tried restarting.,0,0,0,1,0,0,0,0,0,0,0,0
+Earbuds gives wrong readings.,0,0,0,0,0,0,0,0,0,0,0,1
+The fitness tracker display shows lines since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+"E-scooter has been motor not spinning lately, and E-scooter loses signal. I need this fixed. Please help.",0,0,0,0,0,1,0,1,0,0,0,0
+Speaker has been no cellular signal lately.,0,0,0,0,0,1,0,0,0,0,0,0
+Monitor has been screen is black lately after a recent update.,0,0,1,0,0,0,0,0,0,0,0,0
+"The camera network drops, and The camera fails to charge.",0,1,0,0,0,1,0,0,0,0,0,0
+"Laptop display has color tint, and My laptop remote buttons don't work.",0,0,1,0,0,0,0,0,1,0,0,0
+I noticed my washing machine speaker muffled after water.,0,0,0,0,0,0,1,0,0,0,0,0
+Vacuum has been app crashes lately after a recent update.,0,0,0,0,0,0,0,0,0,1,0,0
+My monitor storage full unexpectedly. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"Drone has been power LED is on but device is dead lately, and Drone speaker crackles. I need this fixed.",1,0,0,1,0,0,0,0,0,0,0,0
+"The smartwatch keys are sticky, and Smartwatch has been motor buzzing lately.",0,0,0,0,0,0,0,1,1,0,0,0
+"The speaker dead pixels, and Speaker can't find networks. I need this fixed.",0,0,1,0,0,1,0,0,0,0,0,0
+"The phone battery indicator incorrect, and The phone heart rate incorrect. I need this fixed.",0,1,0,0,0,0,0,0,0,0,0,1
+I noticed my gaming console remote buttons don't work after a recent update.,0,0,0,0,0,0,0,0,1,0,0,0
+"Fitness tracker has been makes clicking noise lately, and The fitness tracker trackpad stops working.",0,0,0,1,0,0,0,0,1,0,0,0
+"I noticed my hard drive drum won't rotate, and Hard drive has been gives wrong readings lately. I need this fixed. Please help.",0,0,0,0,0,0,0,1,0,0,0,1
+Earbuds battery drains quickly and I tried restarting.,0,1,0,0,0,0,0,0,0,0,0,0
+Router has been network drops lately.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my gaming console battery drains quickly right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+Router shuts down due to heat while charging.,0,0,0,0,1,0,0,0,0,0,0,0
+Laptop screen ghost touches.,0,0,1,0,0,0,0,0,0,0,0,0
+Fitness tracker data disappeared.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my smartwatch battery indicator incorrect after a recent update. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+The phone won't boot while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+"E-scooter hard drive not detected, and My e-scooter dropped in water. Please help.",0,0,0,0,0,0,1,0,0,0,1,0
+"The monitor data disappeared, and I noticed my monitor image is blurry. I need this fixed.",0,0,1,0,0,0,0,0,0,0,1,0
+"The tablet no internet connection, and My tablet touchscreen not responding.",0,0,1,0,0,1,0,0,0,0,0,0
+"I noticed my earbuds overheats, and Earbuds gives wrong readings. Please help.",0,0,0,0,1,0,0,0,0,0,0,1
+The tablet screen fogged after water and it's getting worse every day.,0,0,0,0,0,0,1,0,0,0,0,0
+"Tv screen fogged after water, and I noticed my TV can't find networks.",0,0,0,0,0,1,1,0,0,0,0,0
+Laptop sensor not accurate.,0,0,0,0,0,0,0,0,0,0,0,1
+My router gets very hot right after I plugged it in.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my drone trackpad stops working, and The drone won't charge.",0,1,0,0,0,0,0,0,1,0,0,0
+I noticed my router screen fogged after water and I tried restarting.,0,0,0,0,0,0,1,0,0,0,0,0
+Speaker has been has no power lately.,1,0,0,0,0,0,0,0,0,0,0,0
+"Washing machine motor not spinning, and I noticed my washing machine double-press issue.",0,0,0,0,0,0,0,1,1,0,0,0
+"The router image is blurry, and The router mechanical grinding noise. I need this fixed.",0,0,1,0,0,0,0,1,0,0,0,0
+Gaming console gets very hot.,0,0,0,0,1,0,0,0,0,0,0,0
+"Tablet remote buttons don't work, and My tablet OS won't load.",0,0,0,0,0,0,0,0,1,1,0,0
+I noticed my tablet joystick drifts.,0,0,0,0,0,0,0,0,1,0,0,0
+"Smartwatch got wet and stopped working, and Smartwatch has been makes clicking noise lately.",0,0,0,1,0,0,1,0,0,0,0,0
+I noticed my tablet data disappeared while charging.,0,0,0,0,0,0,0,0,0,0,1,0
+Phone has been overheats lately.,0,0,0,0,1,0,0,0,0,0,0,0
+Vacuum Bluetooth won't pair.,0,0,0,0,0,1,0,0,0,0,0,0
+E-scooter hard drive not detected.,0,0,0,0,0,0,0,0,0,0,1,0
+"Router has been OS won't load lately, and Router has been battery died in minutes lately. I need this fixed.",0,1,0,0,0,0,0,0,0,1,0,0
+"My earbuds mechanical grinding noise, and Earbuds has been display shows lines lately.",0,0,1,0,0,0,0,1,0,0,0,0
+Printer roller jammed.,0,0,0,0,0,0,0,1,0,0,0,0
+Printer microphone not working and it's getting worse every day.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my gaming console loud grinding noise after it fell.,0,0,0,1,0,0,0,0,0,0,0,0
+Monitor has been motor buzzing lately after a recent update.,0,0,0,0,0,0,0,1,0,0,0,0
+"I noticed my camera shuts down due to heat, and Camera has been no sound lately.",0,0,0,1,1,0,0,0,0,0,0,0
+The printer echo and static after it fell.,0,0,0,1,0,0,0,0,0,0,0,0
+"Drone buttons not registering, and Drone has been shuts off randomly lately. I need this fixed.",1,0,0,0,0,0,0,0,1,0,0,0
+Camera app crashes.,0,0,0,0,0,0,0,0,0,1,0,0
+"Earbuds buttons not registering, and My earbuds sensor not accurate. I need this fixed.",0,0,0,0,0,0,0,0,1,0,0,1
+"My thermostat sensor not accurate, and The thermostat buttons not registering.",0,0,0,0,0,0,0,0,1,0,0,1
+I noticed my thermostat can't find networks.,0,0,0,0,0,1,0,0,0,0,0,0
+"Laptop has been battery drains quickly lately, and Laptop dropped in water. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+Fitness tracker files corrupted since yesterday. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+The e-scooter drum won't rotate and it's getting worse every day. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+"The TV data disappeared, and My TV battery drains quickly. I need this fixed. Please help.",0,1,0,0,0,0,0,0,0,0,1,0
+Hard drive won't hold charge since yesterday.,0,1,0,0,0,0,0,0,0,0,0,0
+Earbuds distorted audio.,0,0,0,1,0,0,0,0,0,0,0,0
+Phone double-press issue right after I plugged it in.,0,0,0,0,0,0,0,0,1,0,0,0
+Phone power LED is on but device is dead after it fell.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my laptop hard drive not detected while charging. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+My earbuds no internet connection since yesterday.,0,0,0,0,0,1,0,0,0,0,0,0
+The drone keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+The earbuds trackpad stops working and I tried restarting.,0,0,0,0,0,0,0,0,1,0,0,0
+"Camera drum won't rotate, and Camera files corrupted.",0,0,0,0,0,0,0,1,0,0,1,0
+"I noticed my camera won't turn on, and I noticed my camera thermal throttling during use.",1,0,0,0,1,0,0,0,0,0,0,0
+The gaming console won't spin and it's getting worse every day.,0,0,0,0,0,0,0,1,0,0,0,0
+Speaker has been trackpad stops working lately.,0,0,0,0,0,0,0,0,1,0,0,0
+Washing machine microphone not working while charging. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+My washing machine fails to start while charging. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+"I noticed my fitness tracker propeller is stuck, and I noticed my fitness tracker can't save files.",0,0,0,0,0,0,0,1,0,0,1,0
+"The tablet keys are sticky, and The tablet files corrupted. I need this fixed.",0,0,0,0,0,0,0,0,1,0,1,0
+Smartwatch can't find networks. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my smartwatch display has color tint after it fell.,0,0,1,0,0,0,0,0,0,0,0,0
+Phone image is blurry.,0,0,1,0,0,0,0,0,0,0,0,0
+My thermostat has no power.,1,0,0,0,0,0,0,0,0,0,0,0
+"The monitor audio cuts out, and I noticed my monitor touch input fails. I need this fixed.",0,0,0,1,0,0,0,0,1,0,0,0
+I noticed my laptop heart rate incorrect right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+My laptop firmware update failed right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+"I noticed my washing machine fails to charge, and The washing machine microphone not working. I need this fixed.",0,1,0,1,0,0,0,0,0,0,0,0
+"E-scooter device smokes, and I noticed my e-scooter makes clicking noise.",0,0,0,1,1,0,0,0,0,0,0,0
+My router battery died in minutes.,0,1,0,0,0,0,0,0,0,0,0,0
+My washing machine data disappeared.,0,0,0,0,0,0,0,0,0,0,1,0
+E-scooter has been storage full unexpectedly lately while charging.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my printer fan runs loud constantly while charging.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my drone error code on startup, and My drone won't turn on. I need this fixed.",1,0,0,0,0,0,0,0,0,1,0,0
+The monitor keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+Monitor thermal throttling during use since yesterday.,0,0,0,0,1,0,0,0,0,0,0,0
+My earbuds won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my camera won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+The camera battery overheating while charging.,0,0,0,0,1,0,0,0,0,0,0,0
+My router no cellular signal after it fell.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my earbuds files corrupted after a recent update.,0,0,0,0,0,0,0,0,0,0,1,0
+"My smartwatch software freezes, and I noticed my smartwatch touch input fails.",0,0,0,0,0,0,0,0,1,1,0,0
+The gaming console double-press issue.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my TV motor not spinning.,0,0,0,0,0,0,0,1,0,0,0,0
+E-scooter has been mechanical grinding noise lately. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+"I noticed my e-scooter gets very hot, and I noticed my e-scooter GPS wrong location. I need this fixed. Please help.",0,0,0,0,1,0,0,0,0,0,0,1
+I noticed my phone proximity sensor fails after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+Fitness tracker Bluetooth won't pair right after I plugged it in. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+"My TV mechanical grinding noise, and My TV loses signal.",0,0,0,0,0,1,0,1,0,0,0,0
+My laptop screen is black. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+Drone has been dropped in water lately.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my gaming console speaker muffled after water.,0,0,0,0,0,0,1,0,0,0,0,0
+My camera motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+"The tablet got wet and stopped working, and My tablet display shows lines.",0,0,1,0,0,0,1,0,0,0,0,0
+"My drone shuts down due to heat, and My drone motor not spinning. Please help.",0,0,0,0,1,0,0,1,0,0,0,0
+E-scooter has been blue screen lately and it's getting worse every day.,0,0,0,0,0,0,0,0,0,1,0,0
+Fitness tracker has been OS won't load lately and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+Printer sensor not accurate.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my hard drive won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my hard drive no sound.,0,0,0,1,0,0,0,0,0,0,0,0
+"The vacuum won't turn on, and My vacuum image is blurry.",1,0,1,0,0,0,0,0,0,0,0,0
+"Laptop has been disk making clicking noises lately, and Laptop has been audio cuts out lately. I need this fixed. Please help.",0,0,0,1,0,0,0,0,0,0,1,0
+I noticed my gaming console won't boot.,1,0,0,0,0,0,0,0,0,0,0,0
+Drone has been battery swelled lately.,0,1,0,0,0,0,0,0,0,0,0,0
+"Laptop won't charge, and The laptop won't spin.",0,1,0,0,0,0,0,1,0,0,0,0
+I noticed my camera no lights but charger connected since yesterday.,1,0,0,0,0,0,0,0,0,0,0,0
+"My smartwatch firmware update failed, and Smartwatch shuts off randomly. I need this fixed.",1,0,0,0,0,0,0,0,0,1,0,0
+"My hard drive fan runs loud constantly, and Hard drive has been motor not spinning lately. I need this fixed.",0,0,0,0,1,0,0,1,0,0,0,0
+"My gaming console temperature sensor off, and My gaming console can't find networks.",0,0,0,0,0,1,0,0,0,0,0,1
+"I noticed my router thermal throttling during use, and I noticed my router screen is black.",0,0,1,0,1,0,0,0,0,0,0,0
+Gaming console has been joystick drifts lately.,0,0,0,0,0,0,0,0,1,0,0,0
+The earbuds overheats.,0,0,0,0,1,0,0,0,0,0,0,0
+Fitness tracker battery indicator incorrect.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my washing machine liquid damage.,0,0,0,0,0,0,1,0,0,0,0,0
+Washing machine has been storage full unexpectedly lately. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"Vacuum propeller is stuck, and Vacuum screen is black.",0,0,1,0,0,0,0,1,0,0,0,0
+Smartwatch shuts off randomly after it fell.,1,0,0,0,0,0,0,0,0,0,0,0
+My laptop image is blurry.,0,0,1,0,0,0,0,0,0,0,0,0
+The hard drive app crashes and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+"The e-scooter loses signal, and The e-scooter fails to charge.",0,1,0,0,0,1,0,0,0,0,0,0
+I noticed my tablet double-press issue after it fell.,0,0,0,0,0,0,0,0,1,0,0,0
+The TV liquid damage right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+Vacuum got wet and stopped working after it fell.,0,0,0,0,0,0,1,0,0,0,0,0
+"Printer has been dead pixels lately, and I noticed my printer no cellular signal.",0,0,1,0,0,1,0,0,0,0,0,0
+I noticed my laptop motor not spinning. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+Smartwatch no internet connection.,0,0,0,0,0,1,0,0,0,0,0,0
+"The e-scooter hard drive not detected, and E-scooter has been temperature sensor off lately. Please help.",0,0,0,0,0,0,0,0,0,0,1,1
+My drone fan runs loud constantly.,0,0,0,0,1,0,0,0,0,0,0,0
+Earbuds has been battery died in minutes lately after a recent update.,0,1,0,0,0,0,0,0,0,0,0,0
+Camera thermal throttling during use.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my smartwatch network drops, and My smartwatch gets very hot. I need this fixed.",0,0,0,0,1,1,0,0,0,0,0,0
+Camera has been sensor not accurate lately and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,0,1
+My thermostat disk making clicking noises since yesterday.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my fitness tracker screen ghost touches, and The fitness tracker mechanical grinding noise.",0,0,1,0,0,0,0,1,0,0,0,0
+I noticed my drone battery died in minutes right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+The thermostat won't boot.,1,0,0,0,0,0,0,0,0,0,0,0
+My vacuum temperature sensor off. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my tablet corroded port after spill, and Tablet battery swelled. Please help.",0,1,0,0,0,0,1,0,0,0,0,0
+Laptop got wet and stopped working since yesterday.,0,0,0,0,0,0,1,0,0,0,0,0
+"I noticed my e-scooter won't spin, and My e-scooter stuck in bootloop. I need this fixed.",0,0,0,0,0,0,0,1,0,1,0,0
+"My vacuum screen ghost touches, and Vacuum gets very hot.",0,0,1,0,1,0,0,0,0,0,0,0
+The washing machine gets very hot.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my gaming console screen is flickering, and Gaming console has been got wet and stopped working lately.",0,0,1,0,0,0,1,0,0,0,0,0
+Router has been SD card not recognized lately after it fell.,0,0,0,0,0,0,0,0,0,0,1,0
+Vacuum has been won't spin lately and it's getting worse every day.,0,0,0,0,0,0,0,1,0,0,0,0
+My phone screen ghost touches since yesterday. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+"The monitor overheats, and Monitor won't turn on.",1,0,0,0,1,0,0,0,0,0,0,0
+Speaker has been motion sensor false triggers lately.,0,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my laptop no internet connection, and My laptop app crashes.",0,0,0,0,0,1,0,0,0,1,0,0
+"Phone disk making clicking noises, and My phone screen fogged after water.",0,0,0,0,0,0,1,0,0,0,1,0
+"Washing machine stuck in bootloop, and I noticed my washing machine can't find networks. I need this fixed.",0,0,0,0,0,1,0,0,0,1,0,0
+"I noticed my router sensor not accurate, and I noticed my router SD card not recognized.",0,0,0,0,0,0,0,0,0,0,1,1
+"The gaming console error code on startup, and Gaming console won't charge.",0,1,0,0,0,0,0,0,0,1,0,0
+The smartwatch won't turn on while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+My tablet joystick drifts after it fell.,0,0,0,0,0,0,0,0,1,0,0,0
+The camera roller jammed.,0,0,0,0,0,0,0,1,0,0,0,0
+Gaming console distorted audio.,0,0,0,1,0,0,0,0,0,0,0,0
+Tv has been stuck in bootloop lately.,0,0,0,0,0,0,0,0,0,1,0,0
+My tablet won't hold charge and I tried restarting. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+Tv has been heart rate incorrect lately after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+The e-scooter files corrupted.,0,0,0,0,0,0,0,0,0,0,1,0
+Laptop firmware update failed right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+"My vacuum propeller is stuck, and I noticed my vacuum loud grinding noise.",0,0,0,1,0,0,0,1,0,0,0,0
+The router battery died in minutes.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my monitor roller jammed while charging.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my router remote buttons don't work.,0,0,0,0,0,0,0,0,1,0,0,0
+"Washing machine has been double-press issue lately, and My washing machine disk making clicking noises.",0,0,0,0,0,0,0,0,1,0,1,0
+"My router battery died in minutes, and Router files corrupted. I need this fixed.",0,1,0,0,0,0,0,0,0,0,1,0
+Fitness tracker has been dead pixels lately.,0,0,1,0,0,0,0,0,0,0,0,0
+Hard drive has been won't charge lately and I tried restarting.,0,1,0,0,0,0,0,0,0,0,0,0
+The smartwatch touch input fails after a recent update.,0,0,0,0,0,0,0,0,1,0,0,0
+My drone screen ghost touches after it fell.,0,0,1,0,0,0,0,0,0,0,0,0
+Vacuum has been fails to charge lately. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+The washing machine network drops.,0,0,0,0,0,1,0,0,0,0,0,0
+"Tablet has been software freezes lately, and My tablet no internet connection.",0,0,0,0,0,1,0,0,0,1,0,0
+"Router has been error code on startup lately, and Router won't charge. I need this fixed. Please help.",0,1,0,0,0,0,0,0,0,1,0,0
+"My earbuds echo and static, and I noticed my earbuds gives wrong readings.",0,0,0,1,0,0,0,0,0,0,0,1
+I noticed my vacuum joystick drifts. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+Vacuum has been can't save files lately.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my washing machine thermal throttling during use.,0,0,0,0,1,0,0,0,0,0,0,0
+The drone shuts down due to heat and I tried restarting. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my printer mechanical grinding noise, and I noticed my printer blue screen. I need this fixed.",0,0,0,0,0,0,0,1,0,1,0,0
+The hard drive drum won't rotate after a recent update.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my camera won't boot. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+"Earbuds has been files corrupted lately, and My earbuds Wi-Fi disconnects. I need this fixed.",0,0,0,0,0,1,0,0,0,0,1,0
+The earbuds disk making clicking noises.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my router won't hold charge while charging.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my fitness tracker makes clicking noise.,0,0,0,1,0,0,0,0,0,0,0,0
+"Laptop no internet connection, and I noticed my laptop drum won't rotate.",0,0,0,0,0,1,0,1,0,0,0,0
+"My e-scooter drum won't rotate, and My e-scooter storage full unexpectedly.",0,0,0,0,0,0,0,1,0,0,1,0
+"Washing machine dropped in water, and Washing machine has been power LED is on but device is dead lately.",1,0,0,0,0,0,1,0,0,0,0,0
+Printer Bluetooth won't pair.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my earbuds sensor not accurate after it fell. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my washing machine has no power, and The washing machine no internet connection.",1,0,0,0,0,1,0,0,0,0,0,0
+Earbuds heart rate incorrect after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+The earbuds double-press issue after a recent update.,0,0,0,0,0,0,0,0,1,0,0,0
+Thermostat has been power LED is on but device is dead lately. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my tablet storage full unexpectedly while charging. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+My earbuds no lights but charger connected while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+"I noticed my camera power LED is on but device is dead, and The camera heart rate incorrect.",1,0,0,0,0,0,0,0,0,0,0,1
+"My laptop app crashes, and Laptop gets very hot.",0,0,0,0,1,0,0,0,0,1,0,0
+"My earbuds no lights but charger connected, and Earbuds heart rate incorrect.",1,0,0,0,0,0,0,0,0,0,0,1
+The camera no internet connection while charging. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+"Smartwatch speaker crackles, and My smartwatch no internet connection. Please help.",0,0,0,1,0,1,0,0,0,0,0,0
+"Tablet fan runs loud constantly, and Tablet motor buzzing.",0,0,0,0,1,0,0,1,0,0,0,0
+I noticed my smartwatch won't spin. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+Laptop has been software freezes lately.,0,0,0,0,0,0,0,0,0,1,0,0
+"I noticed my thermostat network drops, and Thermostat no lights but charger connected. I need this fixed. Please help.",1,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my e-scooter stuck in bootloop, and E-scooter no sound. I need this fixed.",0,0,0,1,0,0,0,0,0,1,0,0
+My vacuum overheats.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my fitness tracker speaker crackles after it fell. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+"My tablet echo and static, and Tablet has been got wet and stopped working lately.",0,0,0,1,0,0,1,0,0,0,0,0
+I noticed my TV app crashes and it's getting worse every day. Please help.,0,0,0,0,0,0,0,0,0,1,0,0
+"Gaming console heart rate incorrect, and Gaming console has been dead pixels lately. Please help.",0,0,1,0,0,0,0,0,0,0,0,1
+Printer blue screen right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+Printer has been device smokes lately.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my router roller jammed, and Router has been keys are sticky lately.",0,0,0,0,0,0,0,1,1,0,0,0
+"The drone battery swelled, and Drone has been no sound lately.",0,1,0,1,0,0,0,0,0,0,0,0
+My tablet won't hold charge.,0,1,0,0,0,0,0,0,0,0,0,0
+Speaker disk making clicking noises and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,1,0
+Camera liquid damage.,0,0,0,0,0,0,1,0,0,0,0,0
+"Printer microphone not working, and Printer has been remote buttons don't work lately. I need this fixed.",0,0,0,1,0,0,0,0,1,0,0,0
+I noticed my TV echo and static.,0,0,0,1,0,0,0,0,0,0,0,0
+"Phone has been battery indicator incorrect lately, and I noticed my phone won't turn on.",1,1,0,0,0,0,0,0,0,0,0,0
+"Printer blue screen, and My printer keys are sticky. I need this fixed.",0,0,0,0,0,0,0,0,1,1,0,0
+"E-scooter battery died in minutes, and I noticed my e-scooter speaker muffled after water. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+"The thermostat speaker crackles, and Thermostat screen ghost touches.",0,0,1,1,0,0,0,0,0,0,0,0
+The earbuds data disappeared while charging.,0,0,0,0,0,0,0,0,0,0,1,0
+Router has been error code on startup lately after a recent update.,0,0,0,0,0,0,0,0,0,1,0,0
+"My gaming console power LED is on but device is dead, and I noticed my gaming console fails to charge. I need this fixed.",1,1,0,0,0,0,0,0,0,0,0,0
+"Thermostat shuts off randomly, and I noticed my thermostat blue screen.",1,0,0,0,0,0,0,0,0,1,0,0
+I noticed my printer audio cuts out.,0,0,0,1,0,0,0,0,0,0,0,0
+"I noticed my router screen ghost touches, and The router blue screen.",0,0,1,0,0,0,0,0,0,1,0,0
+The vacuum no lights but charger connected after a recent update.,1,0,0,0,0,0,0,0,0,0,0,0
+The vacuum distorted audio and it's getting worse every day.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my drone heart rate incorrect. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+"Tv sensor not accurate, and Tv has been keys are sticky lately.",0,0,0,0,0,0,0,0,1,0,0,1
+"The fitness tracker screen is flickering, and My fitness tracker storage full unexpectedly.",0,0,1,0,0,0,0,0,0,0,1,0
+E-scooter has no power.,1,0,0,0,0,0,0,0,0,0,0,0
+"Gaming console has been mechanical grinding noise lately, and I noticed my gaming console battery died in minutes. I need this fixed.",0,1,0,0,0,0,0,1,0,0,0,0
+Speaker has been software freezes lately and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+"My hard drive error code on startup, and Hard drive has been double-press issue lately. I need this fixed.",0,0,0,0,0,0,0,0,1,1,0,0
+"The washing machine speaker crackles, and The washing machine double-press issue. I need this fixed.",0,0,0,1,0,0,0,0,1,0,0,0
+"Tablet has no power, and Tablet has been audio cuts out lately.",1,0,0,1,0,0,0,0,0,0,0,0
+My laptop touch input fails.,0,0,0,0,0,0,0,0,1,0,0,0
+The e-scooter display has color tint right after I plugged it in.,0,0,1,0,0,0,0,0,0,0,0,0
+"Hard drive has been speaker muffled after water lately, and The hard drive keys are sticky.",0,0,0,0,0,0,1,0,1,0,0,0
+"I noticed my phone screen fogged after water, and Phone has been loud grinding noise lately.",0,0,0,1,0,0,1,0,0,0,0,0
+The printer power LED is on but device is dead after a recent update.,1,0,0,0,0,0,0,0,0,0,0,0
+Smartwatch mechanical grinding noise while charging.,0,0,0,0,0,0,0,1,0,0,0,0
+"Drone has been disk making clicking noises lately, and Drone has been image is blurry lately.",0,0,1,0,0,0,0,0,0,0,1,0
+Earbuds has been gives wrong readings lately. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+"Router has been screen fogged after water lately, and Router has been gives wrong readings lately.",0,0,0,0,0,0,1,0,0,0,0,1
+Camera audio cuts out while charging.,0,0,0,1,0,0,0,0,0,0,0,0
+Router no internet connection.,0,0,0,0,0,1,0,0,0,0,0,0
+Tablet has been won't boot lately while charging.,1,0,0,0,0,0,0,0,0,0,0,0
+Drone has been won't spin lately. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+The laptop battery indicator incorrect.,0,1,0,0,0,0,0,0,0,0,0,0
+The thermostat liquid damage.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my e-scooter battery overheating since yesterday.,0,0,0,0,1,0,0,0,0,0,0,0
+"The monitor screen is flickering, and I noticed my monitor software freezes. I need this fixed.",0,0,1,0,0,0,0,0,0,1,0,0
+Hard drive has been roller jammed lately.,0,0,0,0,0,0,0,1,0,0,0,0
+"The earbuds won't boot, and I noticed my earbuds distorted audio. I need this fixed.",1,0,0,1,0,0,0,0,0,0,0,0
+E-scooter has been SD card not recognized lately.,0,0,0,0,0,0,0,0,0,0,1,0
+Fitness tracker has been fails to start lately.,1,0,0,0,0,0,0,0,0,0,0,0
+E-scooter motion sensor false triggers after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+Phone data disappeared after a recent update.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my router gets very hot, and Router has been firmware update failed lately.",0,0,0,0,1,0,0,0,0,1,0,0
+The thermostat network drops while charging. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+Laptop device smokes after it fell. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+Speaker has been hard drive not detected lately.,0,0,0,0,0,0,0,0,0,0,1,0
+The e-scooter doesn't power up and it's getting worse every day.,1,0,0,0,0,0,0,0,0,0,0,0
+"My fitness tracker overheats, and The fitness tracker won't boot.",1,0,0,0,1,0,0,0,0,0,0,0
+Earbuds has been no internet connection lately after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+Router has been loses signal lately after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my fitness tracker display shows lines, and Fitness tracker remote buttons don't work. I need this fixed.",0,0,1,0,0,0,0,0,1,0,0,0
+"My router no internet connection, and The router makes clicking noise.",0,0,0,1,0,1,0,0,0,0,0,0
+My printer mechanical grinding noise. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+The gaming console double-press issue while charging.,0,0,0,0,0,0,0,0,1,0,0,0
+Tablet app crashes since yesterday.,0,0,0,0,0,0,0,0,0,1,0,0
+My TV screen fogged after water.,0,0,0,0,0,0,1,0,0,0,0,0
+Router thermal throttling during use. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+"Gaming console dropped in water, and My gaming console gets very hot. Please help.",0,0,0,0,1,0,1,0,0,0,0,0
+The hard drive no cellular signal.,0,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my vacuum blue screen, and Vacuum has been won't boot lately.",1,0,0,0,0,0,0,0,0,1,0,0
+My fitness tracker screen ghost touches.,0,0,1,0,0,0,0,0,0,0,0,0
+"The laptop makes clicking noise, and My laptop shuts off randomly.",1,0,0,1,0,0,0,0,0,0,0,0
+I noticed my drone heart rate incorrect.,0,0,0,0,0,0,0,0,0,0,0,1
+"The phone screen ghost touches, and Phone stuck in bootloop. Please help.",0,0,1,0,0,0,0,0,0,1,0,0
+"My earbuds shuts down due to heat, and Earbuds has been no lights but charger connected lately.",1,0,0,0,1,0,0,0,0,0,0,0
+The router liquid damage.,0,0,0,0,0,0,1,0,0,0,0,0
+Fitness tracker has been microphone not working lately while charging.,0,0,0,1,0,0,0,0,0,0,0,0
+Smartwatch has been joystick drifts lately. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+Vacuum has been Bluetooth won't pair lately.,0,0,0,0,0,1,0,0,0,0,0,0
+"The vacuum stuck in bootloop, and I noticed my vacuum speaker muffled after water. I need this fixed.",0,0,0,0,0,0,1,0,0,1,0,0
+My vacuum motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+"Earbuds app crashes, and Earbuds gets very hot. I need this fixed.",0,0,0,0,1,0,0,0,0,1,0,0
+My speaker storage full unexpectedly.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my printer has no power.,1,0,0,0,0,0,0,0,0,0,0,0
+The e-scooter files corrupted. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"Fitness tracker overheats, and I noticed my fitness tracker won't boot. I need this fixed.",1,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my earbuds motion sensor false triggers, and The earbuds files corrupted.",0,0,0,0,0,0,0,0,0,0,1,1
+"Phone speaker muffled after water, and The phone gives wrong readings.",0,0,0,0,0,0,1,0,0,0,0,1
+The gaming console GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my camera OS won't load after it fell.,0,0,0,0,0,0,0,0,0,1,0,0
+My e-scooter heart rate incorrect.,0,0,0,0,0,0,0,0,0,0,0,1
+"Printer no internet connection, and Printer has been propeller is stuck lately.",0,0,0,0,0,1,0,1,0,0,0,0
+Gaming console has been won't hold charge lately.,0,1,0,0,0,0,0,0,0,0,0,0
+Router has been error code on startup lately.,0,0,0,0,0,0,0,0,0,1,0,0
+The drone Wi-Fi disconnects and I tried restarting.,0,0,0,0,0,1,0,0,0,0,0,0
+Printer has been fan runs loud constantly lately.,0,0,0,0,1,0,0,0,0,0,0,0
+Phone doesn't power up.,1,0,0,0,0,0,0,0,0,0,0,0
+Monitor has been blue screen lately.,0,0,0,0,0,0,0,0,0,1,0,0
+"I noticed my printer propeller is stuck, and My printer device smokes.",0,0,0,0,1,0,0,1,0,0,0,0
+"Router has been thermal throttling during use lately, and My router mechanical grinding noise.",0,0,0,0,1,0,0,1,0,0,0,0
+Fitness tracker speaker muffled after water after a recent update.,0,0,0,0,0,0,1,0,0,0,0,0
+"I noticed my fitness tracker blue screen, and Fitness tracker battery died in minutes.",0,1,0,0,0,0,0,0,0,1,0,0
+"Tablet loud grinding noise, and Tablet has been battery overheating lately. Please help.",0,0,0,1,1,0,0,0,0,0,0,0
+Hard drive no internet connection. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+Drone has been drum won't rotate lately right after I plugged it in.,0,0,0,0,0,0,0,1,0,0,0,0
+E-scooter has been won't hold charge lately.,0,1,0,0,0,0,0,0,0,0,0,0
+Earbuds data disappeared and I tried restarting.,0,0,0,0,0,0,0,0,0,0,1,0
+My smartwatch gets very hot right after I plugged it in. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my speaker disk making clicking noises and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my gaming console loud grinding noise, and Gaming console stuck in bootloop.",0,0,0,1,0,0,0,0,0,1,0,0
+"I noticed my router disk making clicking noises, and Router has been no cellular signal lately. I need this fixed.",0,0,0,0,0,1,0,0,0,0,1,0
+The router double-press issue.,0,0,0,0,0,0,0,0,1,0,0,0
+The smartwatch hard drive not detected.,0,0,0,0,0,0,0,0,0,0,1,0
+The vacuum touch input fails.,0,0,0,0,0,0,0,0,1,0,0,0
+"The tablet distorted audio, and I noticed my tablet data disappeared.",0,0,0,1,0,0,0,0,0,0,1,0
+Hard drive has been screen ghost touches lately while charging.,0,0,1,0,0,0,0,0,0,0,0,0
+Thermostat shuts down due to heat.,0,0,0,0,1,0,0,0,0,0,0,0
+"My earbuds loud grinding noise, and My earbuds won't charge.",0,1,0,1,0,0,0,0,0,0,0,0
+Printer won't turn on after it fell.,1,0,0,0,0,0,0,0,0,0,0,0
+"I noticed my fitness tracker dead pixels, and My fitness tracker power LED is on but device is dead.",1,0,1,0,0,0,0,0,0,0,0,0
+The TV buttons not registering and it's getting worse every day.,0,0,0,0,0,0,0,0,1,0,0,0
+The earbuds echo and static and I tried restarting.,0,0,0,1,0,0,0,0,0,0,0,0
+"I noticed my washing machine display shows lines, and Washing machine has been proximity sensor fails lately.",0,0,1,0,0,0,0,0,0,0,0,1
+"I noticed my router overheats, and I noticed my router joystick drifts.",0,0,0,0,1,0,0,0,1,0,0,0
+Phone has been GPS wrong location lately.,0,0,0,0,0,0,0,0,0,0,0,1
+Fitness tracker has been mechanical grinding noise lately.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my printer Bluetooth won't pair since yesterday.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my phone storage full unexpectedly.,0,0,0,0,0,0,0,0,0,0,1,0
+Monitor has been distorted audio lately.,0,0,0,1,0,0,0,0,0,0,0,0
+"My e-scooter propeller is stuck, and The e-scooter makes clicking noise. Please help.",0,0,0,1,0,0,0,1,0,0,0,0
+I noticed my fitness tracker buttons not registering and it's getting worse every day.,0,0,0,0,0,0,0,0,1,0,0,0
+Vacuum data disappeared since yesterday. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my smartwatch loses signal, and I noticed my smartwatch has no power. Please help.",1,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my smartwatch Bluetooth won't pair, and Smartwatch has been gets very hot lately.",0,0,0,0,1,1,0,0,0,0,0,0
+"Tv has been gets very hot lately, and Tv has been hard drive not detected lately.",0,0,0,0,1,0,0,0,0,0,1,0
+I noticed my drone device smokes and I tried restarting.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my phone touchscreen not responding.,0,0,1,0,0,0,0,0,0,0,0,0
+The phone stuck in bootloop.,0,0,0,0,0,0,0,0,0,1,0,0
+"My vacuum doesn't power up, and The vacuum trackpad stops working.",1,0,0,0,0,0,0,0,1,0,0,0
+Vacuum has been blue screen lately right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+"The drone remote buttons don't work, and Drone device smokes.",0,0,0,0,1,0,0,0,1,0,0,0
+I noticed my speaker Bluetooth won't pair since yesterday.,0,0,0,0,0,1,0,0,0,0,0,0
+Vacuum has been no internet connection lately right after I plugged it in.,0,0,0,0,0,1,0,0,0,0,0,0
+"My e-scooter won't turn on, and E-scooter has been speaker muffled after water lately. I need this fixed. Please help.",1,0,0,0,0,0,1,0,0,0,0,0
+I noticed my camera mechanical grinding noise.,0,0,0,0,0,0,0,1,0,0,0,0
+"The washing machine microphone not working, and Washing machine has been battery drains quickly lately.",0,1,0,1,0,0,0,0,0,0,0,0
+The gaming console dead pixels while charging.,0,0,1,0,0,0,0,0,0,0,0,0
+Earbuds power LED is on but device is dead and I tried restarting.,1,0,0,0,0,0,0,0,0,0,0,0
+Hard drive has been got wet and stopped working lately.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my phone remote buttons don't work.,0,0,0,0,0,0,0,0,1,0,0,0
+Vacuum screen is flickering.,0,0,1,0,0,0,0,0,0,0,0,0
+Router has been screen is flickering lately.,0,0,1,0,0,0,0,0,0,0,0,0
+Hard drive echo and static. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+Router won't hold charge and I tried restarting.,0,1,0,0,0,0,0,0,0,0,0,0
+The thermostat buttons not registering. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+My gaming console can't find networks after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+E-scooter has been GPS wrong location lately right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+Vacuum SD card not recognized. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"My monitor overheats, and My monitor keys are sticky. I need this fixed.",0,0,0,0,1,0,0,0,1,0,0,0
+Router screen ghost touches. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+The camera got wet and stopped working.,0,0,0,0,0,0,1,0,0,0,0,0
+My monitor battery overheating after it fell.,0,0,0,0,1,0,0,0,0,0,0,0
+The e-scooter files corrupted. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+Hard drive has been power LED is on but device is dead lately. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my e-scooter GPS wrong location right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+"My vacuum hard drive not detected, and My vacuum touchscreen not responding.",0,0,1,0,0,0,0,0,0,0,1,0
+The vacuum remote buttons don't work right after I plugged it in.,0,0,0,0,0,0,0,0,1,0,0,0
+My vacuum won't charge after a recent update.,0,1,0,0,0,0,0,0,0,0,0,0
+Router speaker crackles.,0,0,0,1,0,0,0,0,0,0,0,0
+"The smartwatch propeller is stuck, and Smartwatch won't turn on. Please help.",1,0,0,0,0,0,0,1,0,0,0,0
+My speaker network drops while charging. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+Router screen is black.,0,0,1,0,0,0,0,0,0,0,0,0
+Monitor propeller is stuck.,0,0,0,0,0,0,0,1,0,0,0,0
+"I noticed my thermostat joystick drifts, and I noticed my thermostat speaker crackles.",0,0,0,1,0,0,0,0,1,0,0,0
+The printer makes clicking noise.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my phone gets very hot and it's getting worse every day. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+The printer stuck in bootloop after a recent update.,0,0,0,0,0,0,0,0,0,1,0,0
+"Earbuds has been proximity sensor fails lately, and Earbuds liquid damage.",0,0,0,0,0,0,1,0,0,0,0,1
+I noticed my hard drive heart rate incorrect after a recent update.,0,0,0,0,0,0,0,0,0,0,0,1
+Camera battery indicator incorrect. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my vacuum battery overheating.,0,0,0,0,1,0,0,0,0,0,0,0
+The hard drive gets very hot. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+Tv has been fan runs loud constantly lately.,0,0,0,0,1,0,0,0,0,0,0,0
+My drone proximity sensor fails.,0,0,0,0,0,0,0,0,0,0,0,1
+"Washing machine has been software freezes lately, and I noticed my washing machine trackpad stops working.",0,0,0,0,0,0,0,0,1,1,0,0
+The earbuds no internet connection.,0,0,0,0,0,1,0,0,0,0,0,0
+E-scooter has been microphone not working lately.,0,0,0,1,0,0,0,0,0,0,0,0
+"Tablet heart rate incorrect, and Tablet won't turn on.",1,0,0,0,0,0,0,0,0,0,0,1
+"The printer GPS wrong location, and The printer network drops. I need this fixed.",0,0,0,0,0,1,0,0,0,0,0,1
+My vacuum motor buzzing.,0,0,0,0,0,0,0,1,0,0,0,0
+E-scooter mechanical grinding noise.,0,0,0,0,0,0,0,1,0,0,0,0
+"I noticed my gaming console GPS wrong location, and The gaming console joystick drifts. Please help.",0,0,0,0,0,0,0,0,1,0,0,1
+I noticed my camera battery swelled.,0,1,0,0,0,0,0,0,0,0,0,0
+Drone has been loses signal lately.,0,0,0,0,0,1,0,0,0,0,0,0
+Tablet has been drum won't rotate lately and I tried restarting. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+Monitor has been Bluetooth won't pair lately.,0,0,0,0,0,1,0,0,0,0,0,0
+Phone dead pixels.,0,0,1,0,0,0,0,0,0,0,0,0
+My printer won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+The drone screen is flickering since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+The printer gives wrong readings right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my laptop GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+Router app crashes. Please help.,0,0,0,0,0,0,0,0,0,1,0,0
+The printer OS won't load.,0,0,0,0,0,0,0,0,0,1,0,0
+"The camera corroded port after spill, and Camera has been screen is black lately.",0,0,1,0,0,0,1,0,0,0,0,0
+I noticed my router drum won't rotate.,0,0,0,0,0,0,0,1,0,0,0,0
+Thermostat has been got wet and stopped working lately.,0,0,0,0,0,0,1,0,0,0,0,0
+"Vacuum error code on startup, and Vacuum got wet and stopped working.",0,0,0,0,0,0,1,0,0,1,0,0
+Washing machine has been fan runs loud constantly lately and I tried restarting.,0,0,0,0,1,0,0,0,0,0,0,0
+Tv won't boot.,1,0,0,0,0,0,0,0,0,0,0,0
+The laptop network drops.,0,0,0,0,0,1,0,0,0,0,0,0
+Gaming console joystick drifts.,0,0,0,0,0,0,0,0,1,0,0,0
+My laptop touch input fails. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my phone loud grinding noise.,0,0,0,1,0,0,0,0,0,0,0,0
+Tv has been image is blurry lately.,0,0,1,0,0,0,0,0,0,0,0,0
+Smartwatch speaker muffled after water and I tried restarting. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+"Tablet thermal throttling during use, and My tablet liquid damage. I need this fixed.",0,0,0,0,1,0,1,0,0,0,0,0
+Earbuds has been can't find networks lately.,0,0,0,0,0,1,0,0,0,0,0,0
+"Smartwatch has been screen is flickering lately, and My smartwatch motor not spinning. I need this fixed.",0,0,1,0,0,0,0,1,0,0,0,0
+Laptop echo and static right after I plugged it in. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+The speaker display has color tint and it's getting worse every day. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my router won't charge after it fell. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+"Router has been gets very hot lately, and My router no internet connection.",0,0,0,0,1,1,0,0,0,0,0,0
+Router has been propeller is stuck lately.,0,0,0,0,0,0,0,1,0,0,0,0
+"Gaming console overheats, and Gaming console has been Bluetooth won't pair lately.",0,0,0,0,1,1,0,0,0,0,0,0
+"I noticed my smartwatch app crashes, and Smartwatch got wet and stopped working.",0,0,0,0,0,0,1,0,0,1,0,0
+"My fitness tracker can't find networks, and My fitness tracker GPS wrong location.",0,0,0,0,0,1,0,0,0,0,0,1
+Camera has been display shows lines lately and it's getting worse every day. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+My printer Bluetooth won't pair.,0,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my fitness tracker touch input fails, and The fitness tracker hard drive not detected.",0,0,0,0,0,0,0,0,1,0,1,0
+"Washing machine firmware update failed, and Washing machine has been touchscreen not responding lately.",0,0,1,0,0,0,0,0,0,1,0,0
+"Phone has been image is blurry lately, and Phone corroded port after spill.",0,0,1,0,0,0,1,0,0,0,0,0
+The speaker won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+My drone propeller is stuck.,0,0,0,0,0,0,0,1,0,0,0,0
+Laptop won't boot after a recent update.,1,0,0,0,0,0,0,0,0,0,0,0
+"I noticed my camera hard drive not detected, and My camera overheats. I need this fixed.",0,0,0,0,1,0,0,0,0,0,1,0
+"I noticed my printer stuck in bootloop, and The printer power LED is on but device is dead. I need this fixed. Please help.",1,0,0,0,0,0,0,0,0,1,0,0
+"My washing machine loses signal, and My washing machine won't turn on.",1,0,0,0,0,1,0,0,0,0,0,0
+I noticed my earbuds screen is black after it fell.,0,0,1,0,0,0,0,0,0,0,0,0
+Vacuum display shows lines.,0,0,1,0,0,0,0,0,0,0,0,0
+"My fitness tracker SD card not recognized, and The fitness tracker fails to charge.",0,1,0,0,0,0,0,0,0,0,1,0
+My vacuum software freezes.,0,0,0,0,0,0,0,0,0,1,0,0
+Phone sensor not accurate.,0,0,0,0,0,0,0,0,0,0,0,1
+Camera has been got wet and stopped working lately.,0,0,0,0,0,0,1,0,0,0,0,0
+Printer won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+My washing machine remote buttons don't work while charging.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my fitness tracker blue screen while charging.,0,0,0,0,0,0,0,0,0,1,0,0
+Speaker has been disk making clicking noises lately.,0,0,0,0,0,0,0,0,0,0,1,0
+"Router echo and static, and I noticed my router mechanical grinding noise.",0,0,0,1,0,0,0,1,0,0,0,0
+My tablet corroded port after spill. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my washing machine battery indicator incorrect and it's getting worse every day.,0,1,0,0,0,0,0,0,0,0,0,0
+"Laptop gets very hot, and The laptop propeller is stuck.",0,0,0,0,1,0,0,1,0,0,0,0
+"Tablet has been battery drains quickly lately, and I noticed my tablet got wet and stopped working.",0,1,0,0,0,0,1,0,0,0,0,0
+Laptop battery overheating.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my camera display shows lines after a recent update.,0,0,1,0,0,0,0,0,0,0,0,0
+Smartwatch has been won't turn on lately. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+Router has been Bluetooth won't pair lately.,0,0,0,0,0,1,0,0,0,0,0,0
+Thermostat has been sensor not accurate lately.,0,0,0,0,0,0,0,0,0,0,0,1
+My drone loud grinding noise while charging.,0,0,0,1,0,0,0,0,0,0,0,0
+Tablet won't turn on.,1,0,0,0,0,0,0,0,0,0,0,0
+Speaker data disappeared after it fell.,0,0,0,0,0,0,0,0,0,0,1,0
+Speaker trackpad stops working since yesterday.,0,0,0,0,0,0,0,0,1,0,0,0
+Fitness tracker audio cuts out.,0,0,0,1,0,0,0,0,0,0,0,0
+The printer keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+My monitor can't save files since yesterday.,0,0,0,0,0,0,0,0,0,0,1,0
+"Printer battery drains quickly, and I noticed my printer got wet and stopped working. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+Router has been battery overheating lately since yesterday.,0,0,0,0,1,0,0,0,0,0,0,0
+"My vacuum loses signal, and The vacuum firmware update failed. Please help.",0,0,0,0,0,1,0,0,0,1,0,0
+"I noticed my phone no internet connection, and I noticed my phone has no power.",1,0,0,0,0,1,0,0,0,0,0,0
+Washing machine display has color tint.,0,0,1,0,0,0,0,0,0,0,0,0
+Speaker echo and static.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my hard drive won't boot.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my phone shuts off randomly and I tried restarting.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my monitor won't hold charge after a recent update.,0,1,0,0,0,0,0,0,0,0,0,0
+My tablet motor buzzing.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my fitness tracker blue screen since yesterday.,0,0,0,0,0,0,0,0,0,1,0,0
+My drone liquid damage while charging.,0,0,0,0,0,0,1,0,0,0,0,0
+The e-scooter proximity sensor fails.,0,0,0,0,0,0,0,0,0,0,0,1
+Router has been remote buttons don't work lately since yesterday.,0,0,0,0,0,0,0,0,1,0,0,0
+My router Wi-Fi disconnects.,0,0,0,0,0,1,0,0,0,0,0,0
+"My gaming console distorted audio, and I noticed my gaming console joystick drifts. I need this fixed.",0,0,0,1,0,0,0,0,1,0,0,0
+"E-scooter image is blurry, and My e-scooter gets very hot. I need this fixed.",0,0,1,0,1,0,0,0,0,0,0,0
+"Fitness tracker blue screen, and The fitness tracker corroded port after spill. I need this fixed.",0,0,0,0,0,0,1,0,0,1,0,0
+Tablet has been image is blurry lately.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my earbuds GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+"The earbuds battery drains quickly, and I noticed my earbuds won't turn on. Please help.",1,1,0,0,0,0,0,0,0,0,0,0
+My gaming console joystick drifts right after I plugged it in.,0,0,0,0,0,0,0,0,1,0,0,0
+The router trackpad stops working.,0,0,0,0,0,0,0,0,1,0,0,0
+Smartwatch motor not spinning after it fell.,0,0,0,0,0,0,0,1,0,0,0,0
+The smartwatch Bluetooth won't pair and I tried restarting.,0,0,0,0,0,1,0,0,0,0,0,0
+The printer dropped in water.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my gaming console thermal throttling during use while charging.,0,0,0,0,1,0,0,0,0,0,0,0
+Thermostat app crashes right after I plugged it in.,0,0,0,0,0,0,0,0,0,1,0,0
+Phone sensor not accurate after a recent update. Please help.,0,0,0,0,0,0,0,0,0,0,0,1
+The drone firmware update failed and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+The e-scooter fan runs loud constantly.,0,0,0,0,1,0,0,0,0,0,0,0
+Gaming console has been temperature sensor off lately.,0,0,0,0,0,0,0,0,0,0,0,1
+"Laptop gets very hot, and My laptop buttons not registering.",0,0,0,0,1,0,0,0,1,0,0,0
+"I noticed my earbuds audio cuts out, and Earbuds buttons not registering.",0,0,0,1,0,0,0,0,1,0,0,0
+I noticed my router makes clicking noise. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+Washing machine has been loud grinding noise lately and it's getting worse every day. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my TV dropped in water and it's getting worse every day.,0,0,0,0,0,0,1,0,0,0,0,0
+The TV proximity sensor fails.,0,0,0,0,0,0,0,0,0,0,0,1
+Camera fails to charge after it fell.,0,1,0,0,0,0,0,0,0,0,0,0
+My gaming console remote buttons don't work while charging.,0,0,0,0,0,0,0,0,1,0,0,0
+Hard drive corroded port after spill. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+My vacuum won't hold charge.,0,1,0,0,0,0,0,0,0,0,0,0
+Printer has been no internet connection lately.,0,0,0,0,0,1,0,0,0,0,0,0
+Router overheats.,0,0,0,0,1,0,0,0,0,0,0,0
+Laptop files corrupted.,0,0,0,0,0,0,0,0,0,0,1,0
+"I noticed my laptop network drops, and I noticed my laptop display shows lines. I need this fixed.",0,0,1,0,0,1,0,0,0,0,0,0
+Speaker battery indicator incorrect. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+Fitness tracker has been disk making clicking noises lately.,0,0,0,0,0,0,0,0,0,0,1,0
+The vacuum loses signal.,0,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my thermostat error code on startup, and Thermostat gives wrong readings.",0,0,0,0,0,0,0,0,0,1,0,1
+"My phone drum won't rotate, and My phone no sound. Please help.",0,0,0,1,0,0,0,1,0,0,0,0
+"My phone won't turn on, and I noticed my phone image is blurry.",1,0,1,0,0,0,0,0,0,0,0,0
+The hard drive can't find networks.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my e-scooter error code on startup right after I plugged it in. Please help.,0,0,0,0,0,0,0,0,0,1,0,0
+"The washing machine stuck in bootloop, and My washing machine gets very hot. I need this fixed.",0,0,0,0,1,0,0,0,0,1,0,0
+Smartwatch trackpad stops working.,0,0,0,0,0,0,0,0,1,0,0,0
+My smartwatch dead pixels since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+"Camera has been makes clicking noise lately, and I noticed my camera double-press issue.",0,0,0,1,0,0,0,0,1,0,0,0
+The router screen ghost touches since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my washing machine echo and static since yesterday.,0,0,0,1,0,0,0,0,0,0,0,0
+Tv has been gives wrong readings lately and I tried restarting.,0,0,0,0,0,0,0,0,0,0,0,1
+Hard drive display has color tint right after I plugged it in.,0,0,1,0,0,0,0,0,0,0,0,0
+Fitness tracker remote buttons don't work.,0,0,0,0,0,0,0,0,1,0,0,0
+My camera files corrupted.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my smartwatch device smokes.,0,0,0,0,1,0,0,0,0,0,0,0
+Tablet has been loud grinding noise lately and I tried restarting.,0,0,0,1,0,0,0,0,0,0,0,0
+The vacuum loud grinding noise.,0,0,0,1,0,0,0,0,0,0,0,0
+The earbuds sensor not accurate while charging.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my vacuum audio cuts out while charging.,0,0,0,1,0,0,0,0,0,0,0,0
+Printer won't turn on. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+My TV battery swelled.,0,1,0,0,0,0,0,0,0,0,0,0
+My speaker doesnt power up.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my printer battery swelled since yesterday.,0,1,0,0,0,0,0,0,0,0,0,0
+"Thermostat has been fails to start lately, and I noticed my thermostat distorted audio. I need this fixed.",1,0,0,1,0,0,0,0,0,0,0,0
+The thermostat heart rate incorrect right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,0,1
+Thermostat has been touchscreen not responding lately.,0,0,1,0,0,0,0,0,0,0,0,0
+The router won't turn on.,1,0,0,0,0,0,0,0,0,0,0,0
+Thermostat temperature sensor off after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+Drone battery drains quickly.,0,1,0,0,0,0,0,0,0,0,0,0
+Fitness tracker corroded port after spill.,0,0,0,0,0,0,1,0,0,0,0,0
+"My speaker won't hold charge, and Speaker has been SD card not recognized lately.",0,1,0,0,0,0,0,0,0,0,1,0
+I noticed my e-scooter roller jammed. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+The router buttons not registering since yesterday.,0,0,0,0,0,0,0,0,1,0,0,0
+"I noticed my gaming console battery died in minutes, and My gaming console OS won't load. I need this fixed.",0,1,0,0,0,0,0,0,0,1,0,0
+"Fitness tracker has been overheats lately, and My fitness tracker GPS wrong location.",0,0,0,0,1,0,0,0,0,0,0,1
+"Speaker won't charge, and The speaker microphone not working.",0,1,0,1,0,0,0,0,0,0,0,0
+The fitness tracker keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+Vacuum has been battery overheating lately and I tried restarting.,0,0,0,0,1,0,0,0,0,0,0,0
+"My earbuds gets very hot, and Earbuds has been speaker muffled after water lately.",0,0,0,0,1,0,1,0,0,0,0,0
+My router audio cuts out while charging.,0,0,0,1,0,0,0,0,0,0,0,0
+"Printer has been got wet and stopped working lately, and My printer fan runs loud constantly.",0,0,0,0,1,0,1,0,0,0,0,0
+I noticed my TV corroded port after spill.,0,0,0,0,0,0,1,0,0,0,0,0
+Laptop has been overheats lately right after I plugged it in.,0,0,0,0,1,0,0,0,0,0,0,0
+My router distorted audio and it's getting worse every day.,0,0,0,1,0,0,0,0,0,0,0,0
+Vacuum has been stuck in bootloop lately.,0,0,0,0,0,0,0,0,0,1,0,0
+E-scooter has been no cellular signal lately.,0,0,0,0,0,1,0,0,0,0,0,0
+The printer touch input fails.,0,0,0,0,0,0,0,0,1,0,0,0
+"Vacuum has been power LED is on but device is dead lately, and The vacuum motion sensor false triggers.",1,0,0,0,0,0,0,0,0,0,0,1
+"Camera has been screen ghost touches lately, and I noticed my camera motion sensor false triggers. Please help.",0,0,1,0,0,0,0,0,0,0,0,1
+"I noticed my camera motion sensor false triggers, and I noticed my camera keys are sticky.",0,0,0,0,0,0,0,0,1,0,0,1
+Washing machine propeller is stuck while charging.,0,0,0,0,0,0,0,1,0,0,0,0
+"My tablet won't hold charge, and I noticed my tablet doesn't power up.",1,1,0,0,0,0,0,0,0,0,0,0
+"I noticed my washing machine heart rate incorrect, and Washing machine has been echo and static lately.",0,0,0,1,0,0,0,0,0,0,0,1
+Speaker audio cuts out.,0,0,0,1,0,0,0,0,0,0,0,0
+My TV battery drains quickly.,0,1,0,0,0,0,0,0,0,0,0,0
+"Tv has been won't hold charge lately, and Tv stuck in bootloop.",0,1,0,0,0,0,0,0,0,1,0,0
+"My monitor won't boot, and Monitor has been sensor not accurate lately.",1,0,0,0,0,0,0,0,0,0,0,1
+The tablet motion sensor false triggers and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,0,1
+"The drone got wet and stopped working, and Drone doesn't power up. Please help.",1,0,0,0,0,0,1,0,0,0,0,0
+Hard drive has been screen is flickering lately.,0,0,1,0,0,0,0,0,0,0,0,0
+"My router won't charge, and I noticed my router no internet connection.",0,1,0,0,0,1,0,0,0,0,0,0
+My smartwatch Bluetooth won't pair while charging.,0,0,0,0,0,1,0,0,0,0,0,0
+"I noticed my hard drive audio cuts out, and I noticed my hard drive dead pixels. Please help.",0,0,1,1,0,0,0,0,0,0,0,0
+"My fitness tracker Bluetooth won't pair, and Fitness tracker has been dead pixels lately.",0,0,1,0,0,1,0,0,0,0,0,0
+I noticed my laptop gives wrong readings since yesterday.,0,0,0,0,0,0,0,0,0,0,0,1
+The vacuum error code on startup after a recent update.,0,0,0,0,0,0,0,0,0,1,0,0
+Thermostat can't save files.,0,0,0,0,0,0,0,0,0,0,1,0
+The smartwatch data disappeared.,0,0,0,0,0,0,0,0,0,0,1,0
+Printer overheats after it fell.,0,0,0,0,1,0,0,0,0,0,0,0
+"My router storage full unexpectedly, and The router battery drains quickly. I need this fixed.",0,1,0,0,0,0,0,0,0,0,1,0
+My hard drive shuts off randomly.,1,0,0,0,0,0,0,0,0,0,0,0
+"Thermostat fan runs loud constantly, and The thermostat won't boot. I need this fixed. Please help.",1,0,0,0,1,0,0,0,0,0,0,0
+I noticed my thermostat OS won't load.,0,0,0,0,0,0,0,0,0,1,0,0
+I noticed my smartwatch won't charge and it's getting worse every day.,0,1,0,0,0,0,0,0,0,0,0,0
+The earbuds mechanical grinding noise while charging.,0,0,0,0,0,0,0,1,0,0,0,0
+"Tv storage full unexpectedly, and The TV propeller is stuck.",0,0,0,0,0,0,0,1,0,0,1,0
+My earbuds temperature sensor off.,0,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my monitor heart rate incorrect, and I noticed my monitor disk making clicking noises.",0,0,0,0,0,0,0,0,0,0,1,1
+I noticed my vacuum battery swelled.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my tablet mechanical grinding noise.,0,0,0,0,0,0,0,1,0,0,0,0
+E-scooter has been can't find networks lately after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+Washing machine has been app crashes lately.,0,0,0,0,0,0,0,0,0,1,0,0
+Camera won't boot.,1,0,0,0,0,0,0,0,0,0,0,0
+"The e-scooter dead pixels, and I noticed my e-scooter dropped in water. I need this fixed.",0,0,1,0,0,0,1,0,0,0,0,0
+The monitor fan runs loud constantly while charging.,0,0,0,0,1,0,0,0,0,0,0,0
+"Phone has been corroded port after spill lately, and The phone software freezes.",0,0,0,0,0,0,1,0,0,1,0,0
+My monitor got wet and stopped working. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+"The router roller jammed, and The router hard drive not detected. I need this fixed.",0,0,0,0,0,0,0,1,0,0,1,0
+"My gaming console has no power, and Gaming console software freezes.",1,0,0,0,0,0,0,0,0,1,0,0
+I noticed my tablet screen is black.,0,0,1,0,0,0,0,0,0,0,0,0
+"Hard drive liquid damage, and The hard drive network drops.",0,0,0,0,0,1,1,0,0,0,0,0
+Camera has been screen is black lately.,0,0,1,0,0,0,0,0,0,0,0,0
+"My smartwatch can't save files, and My smartwatch Bluetooth won't pair.",0,0,0,0,0,1,0,0,0,0,1,0
+Monitor dropped in water.,0,0,0,0,0,0,1,0,0,0,0,0
+"Speaker has been battery died in minutes lately, and Speaker motor not spinning. I need this fixed.",0,1,0,0,0,0,0,1,0,0,0,0
+Tv screen is flickering right after I plugged it in.,0,0,1,0,0,0,0,0,0,0,0,0
+"The smartwatch battery died in minutes, and I noticed my smartwatch screen fogged after water.",0,1,0,0,0,0,1,0,0,0,0,0
+My fitness tracker motor not spinning.,0,0,0,0,0,0,0,1,0,0,0,0
+Thermostat has been dead pixels lately.,0,0,1,0,0,0,0,0,0,0,0,0
+Tablet has been screen fogged after water lately right after I plugged it in. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+Monitor has been battery indicator incorrect lately right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+"The earbuds battery swelled, and Earbuds has been data disappeared lately.",0,1,0,0,0,0,0,0,0,0,1,0
+I noticed my TV stuck in bootloop while charging. Please help.,0,0,0,0,0,0,0,0,0,1,0,0
+My hard drive battery drains quickly after it fell.,0,1,0,0,0,0,0,0,0,0,0,0
+My e-scooter remote buttons don't work.,0,0,0,0,0,0,0,0,1,0,0,0
+My TV no cellular signal.,0,0,0,0,0,1,0,0,0,0,0,0
+"Phone propeller is stuck, and My phone software freezes.",0,0,0,0,0,0,0,1,0,1,0,0
+"Router has been Wi-Fi disconnects lately, and I noticed my router roller jammed. I need this fixed.",0,0,0,0,0,1,0,1,0,0,0,0
+"Phone has been distorted audio lately, and The phone display shows lines.",0,0,1,1,0,0,0,0,0,0,0,0
+Tv speaker muffled after water.,0,0,0,0,0,0,1,0,0,0,0,0
+Thermostat double-press issue.,0,0,0,0,0,0,0,0,1,0,0,0
+Washing machine has been buttons not registering lately. Please help.,0,0,0,0,0,0,0,0,1,0,0,0
+"Drone battery drains quickly, and My drone makes clicking noise. I need this fixed.",0,1,0,1,0,0,0,0,0,0,0,0
+"Earbuds has been loses signal lately, and I noticed my earbuds can't save files.",0,0,0,0,0,1,0,0,0,0,1,0
+I noticed my camera won't hold charge.,0,1,0,0,0,0,0,0,0,0,0,0
+"Phone has been distorted audio lately, and My phone Wi-Fi disconnects.",0,0,0,1,0,1,0,0,0,0,0,0
+The earbuds shuts off randomly. Please help.,1,0,0,0,0,0,0,0,0,0,0,0
+"The smartwatch motor buzzing, and Smartwatch error code on startup.",0,0,0,0,0,0,0,1,0,1,0,0
+I noticed my laptop propeller is stuck. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+"Laptop has been roller jammed lately, and I noticed my laptop stuck in bootloop.",0,0,0,0,0,0,0,1,0,1,0,0
+The thermostat remote buttons don't work and I tried restarting.,0,0,0,0,0,0,0,0,1,0,0,0
+"Hard drive no cellular signal, and My hard drive motor buzzing.",0,0,0,0,0,1,0,1,0,0,0,0
+The speaker has no power.,1,0,0,0,0,0,0,0,0,0,0,0
+"Monitor has been dropped in water lately, and Monitor has been gives wrong readings lately.",0,0,0,0,0,0,1,0,0,0,0,1
+"Camera has been battery swelled lately, and Camera has been speaker muffled after water lately. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+"My hard drive no lights but charger connected, and Hard drive dropped in water.",1,0,0,0,0,0,1,0,0,0,0,0
+Earbuds image is blurry while charging.,0,0,1,0,0,0,0,0,0,0,0,0
+Monitor doesn't power up.,1,0,0,0,0,0,0,0,0,0,0,0
+"Router has been screen is black lately, and Router won't boot.",1,0,1,0,0,0,0,0,0,0,0,0
+"The fitness tracker fails to charge, and Fitness tracker mechanical grinding noise.",0,1,0,0,0,0,0,1,0,0,0,0
+I noticed my laptop GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my phone speaker muffled after water.,0,0,0,0,0,0,1,0,0,0,0,0
+Smartwatch has been network drops lately after it fell.,0,0,0,0,0,1,0,0,0,0,0,0
+"Washing machine image is blurry, and My washing machine SD card not recognized.",0,0,1,0,0,0,0,0,0,0,1,0
+"The printer joystick drifts, and My printer makes clicking noise.",0,0,0,1,0,0,0,0,1,0,0,0
+Thermostat has been fan runs loud constantly lately and I tried restarting.,0,0,0,0,1,0,0,0,0,0,0,0
+"I noticed my printer battery indicator incorrect, and The printer corroded port after spill. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+Router has been data disappeared lately.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my router display has color tint since yesterday. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+Router has been gives wrong readings lately.,0,0,0,0,0,0,0,0,0,0,0,1
+Tv has been motor not spinning lately and it's getting worse every day.,0,0,0,0,0,0,0,1,0,0,0,0
+Phone has been gets very hot lately and it's getting worse every day. Please help.,0,0,0,0,1,0,0,0,0,0,0,0
+Tablet has been GPS wrong location lately.,0,0,0,0,0,0,0,0,0,0,0,1
+"My TV battery overheating, and The TV makes clicking noise. I need this fixed.",0,0,0,1,1,0,0,0,0,0,0,0
+I noticed my earbuds app crashes.,0,0,0,0,0,0,0,0,0,1,0,0
+"My printer speaker muffled after water, and I noticed my printer won't boot.",1,0,0,0,0,0,1,0,0,0,0,0
+"Router got wet and stopped working, and Router has been files corrupted lately.",0,0,0,0,0,0,1,0,0,0,1,0
+"My printer proximity sensor fails, and My printer screen is black.",0,0,1,0,0,0,0,0,0,0,0,1
+Hard drive has been won't charge lately.,0,1,0,0,0,0,0,0,0,0,0,0
+"The router device smokes, and I noticed my router screen fogged after water. I need this fixed.",0,0,0,0,1,0,1,0,0,0,0,0
+"The thermostat speaker muffled after water, and The thermostat hard drive not detected. Please help.",0,0,0,0,0,0,1,0,0,0,1,0
+"Phone roller jammed, and My phone software freezes.",0,0,0,0,0,0,0,1,0,1,0,0
+The smartwatch files corrupted while charging. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+My phone audio cuts out.,0,0,0,1,0,0,0,0,0,0,0,0
+"I noticed my TV speaker muffled after water, and Tv has been echo and static lately.",0,0,0,1,0,0,1,0,0,0,0,0
+Gaming console hard drive not detected.,0,0,0,0,0,0,0,0,0,0,1,0
+"Gaming console has been won't turn on lately, and The gaming console loud grinding noise. I need this fixed.",1,0,0,1,0,0,0,0,0,0,0,0
+The monitor touch input fails right after I plugged it in.,0,0,0,0,0,0,0,0,1,0,0,0
+My TV won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+"The washing machine firmware update failed, and Washing machine has been data disappeared lately. I need this fixed.",0,0,0,0,0,0,0,0,0,1,1,0
+Phone has been won't charge lately while charging.,0,1,0,0,0,0,0,0,0,0,0,0
+"My camera display has color tint, and Camera joystick drifts.",0,0,1,0,0,0,0,0,1,0,0,0
+I noticed my TV screen is black and I tried restarting.,0,0,1,0,0,0,0,0,0,0,0,0
+"My e-scooter shuts down due to heat, and E-scooter battery swelled. I need this fixed. Please help.",0,1,0,0,1,0,0,0,0,0,0,0
+My router won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my gaming console Bluetooth won't pair after a recent update.,0,0,0,0,0,1,0,0,0,0,0,0
+"Printer has been propeller is stuck lately, and Printer has been device smokes lately.",0,0,0,0,1,0,0,1,0,0,0,0
+"The tablet buttons not registering, and My tablet power LED is on but device is dead. I need this fixed.",1,0,0,0,0,0,0,0,1,0,0,0
+I noticed my router Bluetooth won't pair.,0,0,0,0,0,1,0,0,0,0,0,0
+Hard drive temperature sensor off after it fell.,0,0,0,0,0,0,0,0,0,0,0,1
+My smartwatch software freezes and I tried restarting.,0,0,0,0,0,0,0,0,0,1,0,0
+"I noticed my vacuum overheats, and My vacuum won't spin.",0,0,0,0,1,0,0,1,0,0,0,0
+The monitor buttons not registering.,0,0,0,0,0,0,0,0,1,0,0,0
+My e-scooter disk making clicking noises.,0,0,0,0,0,0,0,0,0,0,1,0
+The router mechanical grinding noise and I tried restarting.,0,0,0,0,0,0,0,1,0,0,0,0
+Thermostat has been screen is flickering lately after it fell.,0,0,1,0,0,0,0,0,0,0,0,0
+The fitness tracker screen is black and it's getting worse every day.,0,0,1,0,0,0,0,0,0,0,0,0
+Thermostat battery died in minutes after a recent update.,0,1,0,0,0,0,0,0,0,0,0,0
+My washing machine network drops and it's getting worse every day.,0,0,0,0,0,1,0,0,0,0,0,0
+Washing machine screen is flickering.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my laptop dropped in water right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+"E-scooter has been can't save files lately, and E-scooter screen fogged after water.",0,0,0,0,0,0,1,0,0,0,1,0
+"Drone has been fails to charge lately, and Drone touchscreen not responding.",0,1,1,0,0,0,0,0,0,0,0,0
+My thermostat power LED is on but device is dead.,1,0,0,0,0,0,0,0,0,0,0,0
+The drone mechanical grinding noise after a recent update. Please help.,0,0,0,0,0,0,0,1,0,0,0,0
+E-scooter speaker muffled after water after it fell.,0,0,0,0,0,0,1,0,0,0,0,0
+"My smartwatch motion sensor false triggers, and My smartwatch won't spin.",0,0,0,0,0,0,0,1,0,0,0,1
+My e-scooter blue screen since yesterday.,0,0,0,0,0,0,0,0,0,1,0,0
+The gaming console disk making clicking noises after it fell.,0,0,0,0,0,0,0,0,0,0,1,0
+"Phone shuts down due to heat, and The phone double-press issue. I need this fixed. Please help.",0,0,0,0,1,0,0,0,1,0,0,0
+Speaker has been speaker muffled after water lately. Please help.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my camera corroded port after spill after it fell.,0,0,0,0,0,0,1,0,0,0,0,0
+"The smartwatch Bluetooth won't pair, and My smartwatch display has color tint. I need this fixed.",0,0,1,0,0,1,0,0,0,0,0,0
+"Washing machine has been distorted audio lately, and I noticed my washing machine network drops. I need this fixed.",0,0,0,1,0,1,0,0,0,0,0,0
+"I noticed my laptop loud grinding noise, and I noticed my laptop battery overheating. Please help.",0,0,0,1,1,0,0,0,0,0,0,0
+"I noticed my tablet display shows lines, and Tablet OS won't load. I need this fixed.",0,0,1,0,0,0,0,0,0,1,0,0
+My TV trackpad stops working after a recent update.,0,0,0,0,0,0,0,0,1,0,0,0
+"Tablet software freezes, and Tablet has been thermal throttling during use lately.",0,0,0,0,1,0,0,0,0,1,0,0
+"Tv won't spin, and Tv storage full unexpectedly.",0,0,0,0,0,0,0,1,0,0,1,0
+My router files corrupted after a recent update. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+"The camera battery overheating, and Camera has been speaker muffled after water lately.",0,0,0,0,1,0,1,0,0,0,0,0
+My router GPS wrong location.,0,0,0,0,0,0,0,0,0,0,0,1
+My drone motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+"Router app crashes, and Router device smokes.",0,0,0,0,1,0,0,0,0,1,0,0
+The router overheats right after I plugged it in.,0,0,0,0,1,0,0,0,0,0,0,0
+Router has been liquid damage lately after a recent update.,0,0,0,0,0,0,1,0,0,0,0,0
+My tablet overheats after a recent update.,0,0,0,0,1,0,0,0,0,0,0,0
+"The TV disk making clicking noises, and The TV display has color tint. Please help.",0,0,1,0,0,0,0,0,0,0,1,0
+"Printer no cellular signal, and Printer roller jammed. I need this fixed.",0,0,0,0,0,1,0,1,0,0,0,0
+Printer has been app crashes lately.,0,0,0,0,0,0,0,0,0,1,0,0
+I noticed my washing machine screen is flickering. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+Camera device smokes.,0,0,0,0,1,0,0,0,0,0,0,0
+Drone has been remote buttons don't work lately after a recent update.,0,0,0,0,0,0,0,0,1,0,0,0
+I noticed my phone battery swelled. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+"Washing machine has been shuts off randomly lately, and I noticed my washing machine data disappeared.",1,0,0,0,0,0,0,0,0,0,1,0
+I noticed my vacuum screen ghost touches after it fell.,0,0,1,0,0,0,0,0,0,0,0,0
+Monitor has been speaker muffled after water lately after it fell.,0,0,0,0,0,0,1,0,0,0,0,0
+Printer has been liquid damage lately while charging.,0,0,0,0,0,0,1,0,0,0,0,0
+My speaker image is blurry right after I plugged it in.,0,0,1,0,0,0,0,0,0,0,0,0
+My e-scooter battery drains quickly.,0,1,0,0,0,0,0,0,0,0,0,0
+"The phone stuck in bootloop, and Phone battery indicator incorrect. Please help.",0,1,0,0,0,0,0,0,0,1,0,0
+"My thermostat data disappeared, and Thermostat doesn't power up.",1,0,0,0,0,0,0,0,0,0,1,0
+Printer has been won't charge lately.,0,1,0,0,0,0,0,0,0,0,0,0
+Tv has been blue screen lately.,0,0,0,0,0,0,0,0,0,1,0,0
+The tablet dropped in water.,0,0,0,0,0,0,1,0,0,0,0,0
+Hard drive has been Wi-Fi disconnects lately.,0,0,0,0,0,1,0,0,0,0,0,0
+I noticed my vacuum app crashes.,0,0,0,0,0,0,0,0,0,1,0,0
+My gaming console display has color tint while charging.,0,0,1,0,0,0,0,0,0,0,0,0
+Washing machine liquid damage after a recent update.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my washing machine speaker crackles. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my e-scooter dropped in water and it's getting worse every day.,0,0,0,0,0,0,1,0,0,0,0,0
+My thermostat won't hold charge.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my laptop won't charge.,0,1,0,0,0,0,0,0,0,0,0,0
+My router keys are sticky and it's getting worse every day.,0,0,0,0,0,0,0,0,1,0,0,0
+Gaming console has been got wet and stopped working lately right after I plugged it in.,0,0,0,0,0,0,1,0,0,0,0,0
+The smartwatch audio cuts out.,0,0,0,1,0,0,0,0,0,0,0,0
+I noticed my earbuds temperature sensor off and I tried restarting.,0,0,0,0,0,0,0,0,0,0,0,1
+My washing machine overheats after it fell.,0,0,0,0,1,0,0,0,0,0,0,0
+I noticed my monitor fails to start.,1,0,0,0,0,0,0,0,0,0,0,0
+Laptop files corrupted after it fell.,0,0,0,0,0,0,0,0,0,0,1,0
+"Phone liquid damage, and The phone firmware update failed. I need this fixed. Please help.",0,0,0,0,0,0,1,0,0,1,0,0
+"I noticed my gaming console remote buttons don't work, and The gaming console gives wrong readings.",0,0,0,0,0,0,0,0,1,0,0,1
+"I noticed my tablet GPS wrong location, and Tablet has been display has color tint lately. I need this fixed.",0,0,1,0,0,0,0,0,0,0,0,1
+The printer no cellular signal.,0,0,0,0,0,1,0,0,0,0,0,0
+"Gaming console has been gives wrong readings lately, and I noticed my gaming console touchscreen not responding.",0,0,1,0,0,0,0,0,0,0,0,1
+"My printer fails to charge, and I noticed my printer mechanical grinding noise. I need this fixed.",0,1,0,0,0,0,0,1,0,0,0,0
+I noticed my camera motor buzzing.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my washing machine SD card not recognized right after I plugged it in.,0,0,0,0,0,0,0,0,0,0,1,0
+Smartwatch screen fogged after water and it's getting worse every day.,0,0,0,0,0,0,1,0,0,0,0,0
+Hard drive has been roller jammed lately and it's getting worse every day.,0,0,0,0,0,0,0,1,0,0,0,0
+Printer has been battery swelled lately. Please help.,0,1,0,0,0,0,0,0,0,0,0,0
+My e-scooter network drops.,0,0,0,0,0,1,0,0,0,0,0,0
+Vacuum double-press issue.,0,0,0,0,0,0,0,0,1,0,0,0
+Smartwatch blue screen.,0,0,0,0,0,0,0,0,0,1,0,0
+Printer network drops since yesterday. Please help.,0,0,0,0,0,1,0,0,0,0,0,0
+"Earbuds has been screen is black lately, and The earbuds audio cuts out.",0,0,1,1,0,0,0,0,0,0,0,0
+I noticed my washing machine Bluetooth won't pair since yesterday.,0,0,0,0,0,1,0,0,0,0,0,0
+The laptop shuts down due to heat.,0,0,0,0,1,0,0,0,0,0,0,0
+The monitor audio cuts out while charging. Please help.,0,0,0,1,0,0,0,0,0,0,0,0
+Earbuds has been display has color tint lately right after I plugged it in.,0,0,1,0,0,0,0,0,0,0,0,0
+"My speaker blue screen, and Speaker has been distorted audio lately. I need this fixed.",0,0,0,1,0,0,0,0,0,1,0,0
+Printer app crashes.,0,0,0,0,0,0,0,0,0,1,0,0
+The router loses signal.,0,0,0,0,0,1,0,0,0,0,0,0
+My router network drops while charging.,0,0,0,0,0,1,0,0,0,0,0,0
+"Router has been speaker muffled after water lately, and My router Bluetooth won't pair.",0,0,0,0,0,1,1,0,0,0,0,0
+Phone microphone not working since yesterday.,0,0,0,1,0,0,0,0,0,0,0,0
+The smartwatch fails to start.,1,0,0,0,0,0,0,0,0,0,0,0
+My laptop display has color tint since yesterday.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my router files corrupted and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,1,0
+Router has been screen is flickering lately. Please help.,0,0,1,0,0,0,0,0,0,0,0,0
+"The earbuds screen fogged after water, and The earbuds stuck in bootloop.",0,0,0,0,0,0,1,0,0,1,0,0
+Fitness tracker keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+Smartwatch battery swelled.,0,1,0,0,0,0,0,0,0,0,0,0
+"Smartwatch has been no cellular signal lately, and The smartwatch temperature sensor off. I need this fixed. Please help.",0,0,0,0,0,1,0,0,0,0,0,1
+"Tablet has been GPS wrong location lately, and Tablet has no power.",1,0,0,0,0,0,0,0,0,0,0,1
+Fitness tracker has been no lights but charger connected lately.,1,0,0,0,0,0,0,0,0,0,0,0
+"Tablet has been fails to charge lately, and Tablet has been temperature sensor off lately.",0,1,0,0,0,0,0,0,0,0,0,1
+"My drone gives wrong readings, and Drone has been shuts off randomly lately.",1,0,0,0,0,0,0,0,0,0,0,1
+The vacuum battery drains quickly and I tried restarting.,0,1,0,0,0,0,0,0,0,0,0,0
+"Fitness tracker has been joystick drifts lately, and Fitness tracker has been won't spin lately.",0,0,0,0,0,0,0,1,1,0,0,0
+My gaming console disk making clicking noises.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my thermostat keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+"The router dropped in water, and My router won't hold charge. I need this fixed.",0,1,0,0,0,0,1,0,0,0,0,0
+My gaming console temperature sensor off.,0,0,0,0,0,0,0,0,0,0,0,1
+My hard drive fan runs loud constantly after a recent update.,0,0,0,0,1,0,0,0,0,0,0,0
+"Router power LED is on but device is dead, and My router stuck in bootloop. Please help.",1,0,0,0,0,0,0,0,0,1,0,0
+"Fitness tracker shuts off randomly, and Fitness tracker has been SD card not recognized lately.",1,0,0,0,0,0,0,0,0,0,1,0
+I noticed my TV won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+"E-scooter has been audio cuts out lately, and The e-scooter battery indicator incorrect.",0,1,0,1,0,0,0,0,0,0,0,0
+Phone screen ghost touches while charging.,0,0,1,0,0,0,0,0,0,0,0,0
+Earbuds keys are sticky.,0,0,0,0,0,0,0,0,1,0,0,0
+Router dead pixels after it fell.,0,0,1,0,0,0,0,0,0,0,0,0
+I noticed my router app crashes.,0,0,0,0,0,0,0,0,0,1,0,0
+My camera corroded port after spill while charging.,0,0,0,0,0,0,1,0,0,0,0,0
+The vacuum GPS wrong location and it's getting worse every day.,0,0,0,0,0,0,0,0,0,0,0,1
+Camera SD card not recognized.,0,0,0,0,0,0,0,0,0,0,1,0
+Smartwatch has been double-press issue lately after it fell.,0,0,0,0,0,0,0,0,1,0,0,0
+"The laptop overheats, and Laptop roller jammed.",0,0,0,0,1,0,0,1,0,0,0,0
+"The router fails to start, and I noticed my router OS won't load.",1,0,0,0,0,0,0,0,0,1,0,0
+The tablet distorted audio.,0,0,0,1,0,0,0,0,0,0,0,0
+E-scooter screen is flickering.,0,0,1,0,0,0,0,0,0,0,0,0
+The monitor overheats after a recent update.,0,0,0,0,1,0,0,0,0,0,0,0
+Drone trackpad stops working.,0,0,0,0,0,0,0,0,1,0,0,0
+Fitness tracker disk making clicking noises while charging.,0,0,0,0,0,0,0,0,0,0,1,0
+"E-scooter shuts down due to heat, and My e-scooter screen ghost touches.",0,0,1,0,1,0,0,0,0,0,0,0
+"The tablet no sound, and Tablet has been dead pixels lately. I need this fixed. Please help.",0,0,1,1,0,0,0,0,0,0,0,0
+Washing machine has been motor not spinning lately since yesterday.,0,0,0,0,0,0,0,1,0,0,0,0
+I noticed my monitor no lights but charger connected.,1,0,0,0,0,0,0,0,0,0,0,0
+I noticed my gaming console files corrupted and I tried restarting. Please help.,0,0,0,0,0,0,0,0,0,0,1,0
+Phone has been shuts down due to heat lately.,0,0,0,0,1,0,0,0,0,0,0,0
+My camera fan runs loud constantly.,0,0,0,0,1,0,0,0,0,0,0,0
+The vacuum no cellular signal.,0,0,0,0,0,1,0,0,0,0,0,0
+My phone won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+The TV can't find networks and it's getting worse every day.,0,0,0,0,0,1,0,0,0,0,0,0
+Tv shuts off randomly.,1,0,0,0,0,0,0,0,0,0,0,0
+"Washing machine has been fails to start lately, and Washing machine heart rate incorrect.",1,0,0,0,0,0,0,0,0,0,0,1
+The tablet makes clicking noise since yesterday.,0,0,0,1,0,0,0,0,0,0,0,0
+Earbuds has been fails to start lately.,1,0,0,0,0,0,0,0,0,0,0,0
+The smartwatch battery swelled while charging.,0,1,0,0,0,0,0,0,0,0,0,0
+I noticed my router screen is black after a recent update.,0,0,1,0,0,0,0,0,0,0,0,0
+"My gaming console motor buzzing, and Gaming console has no power. Please help.",1,0,0,0,0,0,0,1,0,0,0,0
+Vacuum has been thermal throttling during use lately.,0,0,0,0,1,0,0,0,0,0,0,0
+Drone won't spin right after I plugged it in.,0,0,0,0,0,0,0,1,0,0,0,0
+My TV can't find networks.,0,0,0,0,0,1,0,0,0,0,0,0
+Tv data disappeared and I tried restarting.,0,0,0,0,0,0,0,0,0,0,1,0
+My phone fails to charge while charging.,0,1,0,0,0,0,0,0,0,0,0,0
+"My hard drive fails to start, and I noticed my hard drive motion sensor false triggers.",1,0,0,0,0,0,0,0,0,0,0,1
+"I noticed my gaming console OS won't load, and Gaming console has been got wet and stopped working lately.",0,0,0,0,0,0,1,0,0,1,0,0
+"My camera no sound, and I noticed my camera SD card not recognized.",0,0,0,1,0,0,0,0,0,0,1,0
+Laptop screen is black.,0,0,1,0,0,0,0,0,0,0,0,0
+"I noticed my printer battery drains quickly, and Printer has been no lights but charger connected lately.",1,1,0,0,0,0,0,0,0,0,0,0
+I noticed my phone won't spin.,0,0,0,0,0,0,0,1,0,0,0,0
+The laptop trackpad stops working.,0,0,0,0,0,0,0,0,1,0,0,0
+E-scooter has been audio cuts out lately after it fell.,0,0,0,1,0,0,0,0,0,0,0,0
+Vacuum has been battery swelled lately right after I plugged it in.,0,1,0,0,0,0,0,0,0,0,0,0
+"Smartwatch trackpad stops working, and Smartwatch has been temperature sensor off lately.",0,0,0,0,0,0,0,0,1,0,0,1
+The smartwatch makes clicking noise.,0,0,0,1,0,0,0,0,0,0,0,0
+Router has been speaker muffled after water lately.,0,0,0,0,0,0,1,0,0,0,0,0
+The washing machine speaker muffled after water after it fell.,0,0,0,0,0,0,1,0,0,0,0,0
+"I noticed my tablet battery died in minutes, and My tablet SD card not recognized.",0,1,0,0,0,0,0,0,0,0,1,0
+"I noticed my phone won't spin, and My phone device smokes.",0,0,0,0,1,0,0,1,0,0,0,0
+"My router loud grinding noise, and Router mechanical grinding noise. I need this fixed.",0,0,0,1,0,0,0,1,0,0,0,0
+Monitor has been loses signal lately.,0,0,0,0,0,1,0,0,0,0,0,0
+"My smartwatch heart rate incorrect, and I noticed my smartwatch thermal throttling during use.",0,0,0,0,1,0,0,0,0,0,0,1
+The phone liquid damage while charging.,0,0,0,0,0,0,1,0,0,0,0,0
+My printer touch input fails since yesterday.,0,0,0,0,0,0,0,0,1,0,0,0
+My e-scooter has no power since yesterday.,1,0,0,0,0,0,0,0,0,0,0,0
+My vacuum dropped in water and it's getting worse every day.,0,0,0,0,0,0,1,0,0,0,0,0
+Smartwatch hard drive not detected.,0,0,0,0,0,0,0,0,0,0,1,0
+I noticed my TV dropped in water.,0,0,0,0,0,0,1,0,0,0,0,0
+"Hard drive has been shuts off randomly lately, and Hard drive software freezes. I need this fixed.",1,0,0,0,0,0,0,0,0,1,0,0
+Drone image is blurry after a recent update.,0,0,1,0,0,0,0,0,0,0,0,0
+Monitor has been speaker muffled after water lately.,0,0,0,0,0,0,1,0,0,0,0,0
+I noticed my drone motion sensor false triggers.,0,0,0,0,0,0,0,0,0,0,0,1
+I noticed my speaker display has color tint and I tried restarting.,0,0,1,0,0,0,0,0,0,0,0,0
+My vacuum overheats.,0,0,0,0,1,0,0,0,0,0,0,0
