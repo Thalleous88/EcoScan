@@ -5,6 +5,7 @@ from transformers import (
     AutoTokenizer, 
     AutoModelForCausalLM, 
     BitsAndBytesConfig, 
+    pipeline,
     DistilBertTokenizer, 
     DistilBertForSequenceClassification
 )
@@ -52,17 +53,28 @@ logger = logging.getLogger(__name__)
 class DeviceAdvisorLLM:
     def __init__(self, model_id, hf_token):
         logger.info(f"Loading LLM: {model_id}...")
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.float16
-        )
+        # bnb_config = BitsAndBytesConfig(
+        #     load_in_4bit=True,
+        #     bnb_4bit_quant_type="nf4",
+        #     bnb_4bit_compute_dtype=torch.float16
+        # )
         self.tokenizer = AutoTokenizer.from_pretrained(model_id, token=hf_token)
         self.model = AutoModelForCausalLM.from_pretrained(
             model_id,
-            quantization_config=bnb_config,
-            device_map="auto",
-            token=hf_token
+            token=hf_token,
+            torch_dtype=torch.float32,  # Use standard precision for CPU
+            device_map="cpu",           # Force CPU loading
+            low_cpu_mem_usage=True
+        )
+
+        self.pipe = pipeline(
+            "text-generation",
+            model=self.model,
+            tokenizer=self.tokenizer,
+            max_new_tokens=200,
+            temperature=0.7,
+            top_p=0.9,
+            repetition_penalty=1.15
         )
 
     def generate_recommendation(self, device_type, visual_condition, nlp_issues):
