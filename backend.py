@@ -140,24 +140,27 @@ Diagnosis:
 
 # --- MAIN PIPELINE CLASS ---
 class DiagnosisPipeline:
+    # In backend.py inside DiagnosisPipeline class
+
     def __init__(self):
         self.config = Config()
         
         # --- MEMORY CLEANUP ---
-        # Clear any leftover garbage from previous runs
         gc.collect()
-        torch.cuda.empty_cache()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
         
-        # --- 1. LOAD THE LLM FIRST ---
-        # The LLM is the "biggest rock". We load it first to ensure 
-        # it gets the continuous VRAM block it needs for 4-bit quantization.
-        self._load_llm()
+        # --- 1. LOAD MODELS ---
+        self._load_llm()        # This is fast now (GGUF)
+        self._load_yolo()       # This is local (Fast)
+        self._load_classifier() # This is local (Fast)
         
-        # --- 2. LOAD SMALLER MODELS ---
-        # These fit in the gaps or can be managed more easily by PyTorch
-        self._load_yolo()
-        self._load_classifier()
-        self._load_nlp()
+        # --- CHANGE THIS SECTION ---
+        # self._load_nlp()  <-- DELETE THIS LINE (It causes the timeout)
+        
+        # Add these lines instead to act as placeholders
+        self.nlp_model = None
+        self.nlp_tokenizer = None
 
     def _load_llm(self):
         # We pass the token (if needed) and model ID
@@ -278,8 +281,16 @@ class DiagnosisPipeline:
             return self.config.IMG_CLASSES[top_idx.item()]
 
     def _analyze_text(self, text):
-        # (Your existing logic)
-        if not hasattr(self, 'nlp_model'): return []
+        # --- LAZY LOADING LOGIC (Add this) ---
+        # If the model hasn't been loaded yet, load it now.
+        if self.nlp_model is None:
+            logger.info("Lazy loading NLP model...")
+            self._load_nlp()
+        # -------------------------------------
+
+        if not hasattr(self, 'nlp_model') or self.nlp_model is None: 
+            return []
+            
         inputs = self.nlp_tokenizer(text, return_tensors="pt", truncation=True, max_length=128).to(self.config.DEVICE)
         with torch.no_grad():
             outputs = self.nlp_model(**inputs)
