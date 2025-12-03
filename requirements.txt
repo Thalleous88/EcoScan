@@ -4,3 +4,4 @@ transformers
 ultralytics 
 timm
 torchvision
+accelerate
