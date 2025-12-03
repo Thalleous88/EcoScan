@@ -16,6 +16,8 @@ import logging
 import os
 import re
 import gc
+from huggingface_hub import hf_hub_download
+from llama_cpp import Llama
 
 class Config:
     # Model Paths
@@ -52,36 +54,34 @@ logger = logging.getLogger(__name__)
 # --- COMPONENT 1: LLM ADVISOR ---
 class DeviceAdvisorLLM:
     def __init__(self, model_id, hf_token):
-        logger.info(f"Loading LLM: {model_id}...")
-        # bnb_config = BitsAndBytesConfig(
-        #     load_in_4bit=True,
-        #     bnb_4bit_quant_type="nf4",
-        #     bnb_4bit_compute_dtype=torch.float16
-        # )
-        self.tokenizer = AutoTokenizer.from_pretrained(model_id, token=hf_token)
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            token=hf_token,
-            torch_dtype=torch.float32,  # Use standard precision for CPU
-            device_map="cpu",           # Force CPU loading
-            low_cpu_mem_usage=True
+        # 1. DOWNLOAD THE COMPRESSED MODEL (GGUF)
+        # We ignore the original 'model_id' input and fetch the specific fast version
+        repo_id = "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF"
+        filename = "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"
+        
+        logger.info(f"Downloading GGUF model: {filename}...")
+        model_path = hf_hub_download(
+            repo_id=repo_id, 
+            filename=filename, 
+            token=hf_token
         )
 
-        self.pipe = pipeline(
-            "text-generation",
-            model=self.model,
-            tokenizer=self.tokenizer,
-            max_new_tokens=200,
-            temperature=0.7,
-            top_p=0.9,
-            repetition_penalty=1.15
+        # 2. LOAD THE FAST ENGINE
+        logger.info("Loading Llama-cpp engine...")
+        self.llm = Llama(
+            model_path=model_path,
+            n_ctx=2048,      # Context window
+            n_threads=2,     # Use 2 CPU cores (Free Tier limit)
+            verbose=False
         )
+        logger.info("GGUF LLM Loaded successfully.")
 
     def generate_recommendation(self, device_type, visual_condition, nlp_issues):
+        # Clean inputs (same as your old code)
         visual_clean = visual_condition.replace("_", " ").title()
         issues_clean = ", ".join([x.replace("_", " ") for x in nlp_issues]) if nlp_issues else "None"
 
-        # 1. Prompt with negative constraints and one-shot example
+        # 3. PROMPT (Keep your exact prompt structure)
         prompt = f"""<|system|>
 You are a technical diagnostic tool. Output the status in the exact format shown. 
 Do not provide repair instructions or steps. Keep descriptions brief.
@@ -106,45 +106,40 @@ Response:
 Diagnosis:
 <|assistant|>
 """
-        inputs = self.tokenizer.encode(prompt, return_tensors="pt").to(self.model.device)
-        
-        # 2. Generation with higher token limit (250)
-        outputs = self.model.generate(
-            inputs, 
-            max_new_tokens=250,       
-            temperature=0.2,          
-            repetition_penalty=1.2,
-            do_sample=True,
-            pad_token_id=self.tokenizer.eos_token_id
-        )
-        
-        raw_response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        
-        # 3. Cleanup logic
-        if "<|assistant|>" in raw_response:
-            generated_text = raw_response.split("<|assistant|>")[-1].strip()
-        else:
-            generated_text = raw_response
 
-        # Force "Diagnosis:" prefix if missing (since we forced it in prompt)
-        final_text = "Diagnosis: " + generated_text if not generated_text.startswith("Diagnosis:") else generated_text
+        # 4. GENERATE (This is the part that changes significantly)
+        # Instead of tokenizer.encode -> model.generate -> decode...
+        # We just ask the GGUF engine for the text directly.
+        output = self.llm(
+            prompt,
+            max_tokens=250,
+            temperature=0.2,
+            top_p=0.9,
+            repeat_penalty=1.2,
+            stop=["</s>", "<|user|>"], # Stop generating if it tries to start a new user turn
+            echo=False # Do not repeat the prompt in the answer
+        )
+
+        # Extract the text
+        generated_text = output['choices'][0]['text']
+
+        # Force "Diagnosis:" prefix if missing
+        final_text = "Diagnosis: " + generated_text if not generated_text.strip().startswith("Diagnosis:") else generated_text
             
+        # 5. FORMAT OUTPUT (Reuse your existing helper function)
         return self._format_output(final_text)
 
     def _format_output(self, text):
         """
-        Parses the raw text into a clean string even if the model messes up slightly.
+        Parses the raw text into a clean string.
+        (This method stays EXACTLY the same as your code)
         """
-        # Fallback parsing strategy: split by newlines and reconstruct
         lines = text.split('\n')
         result = {}
         current_key = "Summary"
-        
-        # Keys we expect to find
         target_keys = ["Diagnosis", "Severity", "Action", "Reasoning"]
         
         for line in lines:
-            # Check if this line starts with one of our keys
             found_key = False
             for key in target_keys:
                 if line.strip().startswith(key + ":"):
@@ -154,17 +149,14 @@ Diagnosis:
                     found_key = True
                     break
             
-            # If it's a continuation of the previous line (model rambling)
             if not found_key and current_key in result and line.strip():
                 result[current_key] += " " + line.strip()
         
-        # Rebuild the final string to look clean
         final_str = ""
         for k in target_keys:
             if k in result:
                 final_str += f"{k}: {result[k]}\n"
         
-        # If regex failed completely, just return the raw text so we don't return empty string
         return final_str if final_str.strip() else text
 
 # --- MAIN PIPELINE CLASS ---

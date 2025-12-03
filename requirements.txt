@@ -5,3 +5,5 @@ ultralytics
 timm
 torchvision
 accelerate
+llama-cpp-python
+huggingface_hub

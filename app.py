@@ -3,6 +3,7 @@ import os
 from PIL import Image
 from backend import DiagnosisPipeline # Import your class from the other file
 
+
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
     page_title="AI Device Diagnoser",
