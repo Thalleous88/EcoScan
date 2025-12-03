@@ -2,10 +2,6 @@ import torch
 import torch.nn.functional as F
 from PIL import Image
 from transformers import (
-    AutoTokenizer, 
-    AutoModelForCausalLM, 
-    BitsAndBytesConfig, 
-    pipeline,
     DistilBertTokenizer, 
     DistilBertForSequenceClassification
 )
@@ -14,7 +10,6 @@ import timm
 from torchvision import transforms
 import logging
 import os
-import re
 import gc
 from ctransformers import AutoModelForCausalLM
 
@@ -25,14 +20,13 @@ class Config:
     NLP_PATH = "thalleous/EcoScan-NLP"
     LLM_MODEL_ID = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     
-    # Token (Only needed for Gemma)
-    HF_TOKEN = "" 
+    # Token
+    HF_TOKEN = os.getenv("HF_TOKEN", "") 
     
     # Device
     DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-    
-    # VISUAL CLASSIFIER CLASSES (What your ResNet knows)
+    # VISUAL CLASSIFIER CLASSES
     IMG_CLASSES = [
         'laptop_normal', 'laptop_crack', 'laptop_fades', 'laptop_lines', 
         'laptop_spot', 'phone_dead_pixel', 'phone_scratch', 'phone_crack', 'phone_normal'
@@ -55,7 +49,7 @@ class DeviceAdvisorLLM:
     def __init__(self, model_id, hf_token):
         logger.info(f"Loading LLM via ctransformers...")
         
-        # ctransformers handles the download and loading in one step!
+        # ctransformers handles the download and loading in one step
         self.llm = AutoModelForCausalLM.from_pretrained(
             "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
             model_file="tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
@@ -70,7 +64,7 @@ class DeviceAdvisorLLM:
         visual_clean = visual_condition.replace("_", " ").title()
         issues_clean = ", ".join([x.replace("_", " ") for x in nlp_issues]) if nlp_issues else "None"
 
-        # 2. Prompt (Same as before)
+        # 2. Prompt
         prompt = f"""<|system|>
 You are a technical diagnostic tool. Output the status in the exact format shown. 
 Do not provide repair instructions or steps. Keep descriptions brief.
@@ -97,14 +91,13 @@ Diagnosis:
 """
 
         # 3. Generate
-        # ctransformers returns the string directly! No complex decoding needed.
         generated_text = self.llm(
             prompt,
             max_new_tokens=250,
             temperature=0.2,
             top_p=0.9,
             repetition_penalty=1.2,
-            stop=["</s>", "<|user|>"] # Stop if it tries to generate a user turn
+            stop=["</s>", "<|user|>"]
         )
 
         # 4. Cleanup & Format
@@ -112,7 +105,6 @@ Diagnosis:
         return self._format_output(final_text)
 
     def _format_output(self, text):
-        # (Keep this helper method exactly the same as you have it now)
         lines = text.split('\n')
         result = {}
         current_key = "Summary"
@@ -140,8 +132,6 @@ Diagnosis:
 
 # --- MAIN PIPELINE CLASS ---
 class DiagnosisPipeline:
-    # In backend.py inside DiagnosisPipeline class
-
     def __init__(self):
         self.config = Config()
         
@@ -155,15 +145,12 @@ class DiagnosisPipeline:
         self._load_yolo()       # This is local (Fast)
         self._load_classifier() # This is local (Fast)
         
-        # --- CHANGE THIS SECTION ---
+        # --- 2. LAZY LOAD PLACEHOLDERS ---
         # self._load_nlp()  <-- DELETE THIS LINE (It causes the timeout)
-        
-        # Add these lines instead to act as placeholders
         self.nlp_model = None
         self.nlp_tokenizer = None
 
     def _load_llm(self):
-        # We pass the token (if needed) and model ID
         self.advisor = DeviceAdvisorLLM(self.config.LLM_MODEL_ID, self.config.HF_TOKEN)
 
     def _load_yolo(self):
@@ -174,7 +161,6 @@ class DiagnosisPipeline:
             self.yolo = YOLO("yolov8n.pt")
 
     def _load_classifier(self):
-        # RESNET50
         self.classifier = timm.create_model('resnet50', pretrained=False, num_classes=9)
         try:
             state_dict = torch.load(self.config.CLASSIFIER_PATH, map_location=self.config.DEVICE)
@@ -192,26 +178,32 @@ class DiagnosisPipeline:
 
     def _load_nlp(self):
         try:
-           
+            # We explicitly pass the token and use subfolder because of your repo structure
             self.nlp_tokenizer = DistilBertTokenizer.from_pretrained(
                 self.config.NLP_PATH,
-                subfolder="electronics_nlp_model" 
+                subfolder="electronics_nlp_model",
+                token=self.config.HF_TOKEN
             )
             self.nlp_model = DistilBertForSequenceClassification.from_pretrained(
                 self.config.NLP_PATH,
-                subfolder="electronics_nlp_model"  
+                subfolder="electronics_nlp_model",
+                token=self.config.HF_TOKEN,
+                use_safetensors=True
             )
             self.nlp_model.to(self.config.DEVICE).eval()
             logger.info(f"NLP Model loaded from {self.config.NLP_PATH}")
         except Exception as e:
             logger.error(f"NLP Model FAILED to load: {e}")
+            # Ensure they remain None so the app doesn't crash later
+            self.nlp_model = None
+            self.nlp_tokenizer = None
 
     def analyze_case(self, image_path, user_comment):
         logger.info(f"Analyzing: {image_path}")
         
         # Defaults
         device_type = "Unknown Device"
-        visual_condition = "N/A" # Default to N/A
+        visual_condition = "N/A"
         
         try:
             img = Image.open(image_path).convert("RGB")
@@ -227,7 +219,6 @@ class DiagnosisPipeline:
                 detected_box = (x1, y1, x2, y2)
                 break 
             
-            # List of devices we have a ResNet for
             screen_devices = [
                 'Laptop', 'Smartphone', 'Flat-Panel-Monitor', 'Flat-Panel-TV', 
                 'Desktop-PC', 'Digital-Oscilloscope', 'Telephone-Set'
@@ -235,16 +226,11 @@ class DiagnosisPipeline:
             
             # 2. ROUTING LOGIC
             if detected_box:
-                # CASE A: It is a screen device -> Use ResNet
                 if device_type in screen_devices and self.classifier:
                     crop = img.crop(detected_box)
                     visual_condition = self._classify_crop(crop)
-                
-                # CASE B: Known device, but not a screen (e.g., Drone) -> Skip ResNet
                 else:
                     visual_condition = "N/A (Non-screen device)"
-            
-            # CASE C: YOLO saw nothing
             elif not detected_box:
                 logger.warning("YOLO: No object detected.")
                 device_type = "Unknown (Rely on Text)"
@@ -270,7 +256,9 @@ class DiagnosisPipeline:
         }
 
     def _classify_crop(self, pil_img):
-        # (Your existing logic)
+        # Only run if classifier exists
+        if not self.classifier: return "Error"
+        
         tensor = self.img_transforms(pil_img).unsqueeze(0).to(self.config.DEVICE)
         with torch.no_grad():
             output = self.classifier(tensor)
@@ -288,11 +276,10 @@ class DiagnosisPipeline:
 
         # 2. CRITICAL SAFETY CHECK
         # If _load_nlp failed (e.g. bad path), these will still be None.
-        # We must return an empty list immediately to prevent the crash.
         if self.nlp_model is None or self.nlp_tokenizer is None:
             return []
             
-        # 3. Run Analysis (Only if we passed the check above)
+        # 3. Run Analysis
         try:
             inputs = self.nlp_tokenizer(text, return_tensors="pt", truncation=True, max_length=128).to(self.config.DEVICE)
             with torch.no_grad():
@@ -307,27 +294,3 @@ class DiagnosisPipeline:
         except Exception as e:
             logger.error(f"Error during NLP analysis: {e}")
             return []
-
-    def _classify_crop(self, pil_img):
-        tensor = self.img_transforms(pil_img).unsqueeze(0).to(self.config.DEVICE)
-        with torch.no_grad():
-            output = self.classifier(tensor)
-            probs = F.softmax(output[0], dim=0)
-            top_prob, top_idx = torch.max(probs, 0)
-            
-            if top_prob.item() < 0.4:
-                return "Uncertain/Normal"
-            return self.config.IMG_CLASSES[top_idx.item()]
-
-    def _analyze_text(self, text):
-        if not hasattr(self, 'nlp_model'): return []
-        inputs = self.nlp_tokenizer(text, return_tensors="pt", truncation=True, max_length=128).to(self.config.DEVICE)
-        with torch.no_grad():
-            outputs = self.nlp_model(**inputs)
-            probs = torch.sigmoid(outputs.logits).squeeze()
-        
-        detected = []
-        for i, prob in enumerate(probs):
-            if prob > 0.5:
-                detected.append(self.config.NLP_LABELS[i])
-        return detected
