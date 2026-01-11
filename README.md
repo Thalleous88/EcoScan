@@ -62,7 +62,7 @@ Setelah itu, buka browser Anda dan akses: **http://localhost:8501**
 ```
 ecoscan/
 ├── app2.py                         # File utama aplikasi Streamlit
-├── requirements.txt                # Daftar pustaka Python
+├── requirements.txt                # Daftar library Python
 ├── electronics_type_classifier/    # Model object detection (YOLOv8)
 ├── condition_classifier/           # Model image classification (ResNet50)
 ├── keyword_extraction/             # Model NLP (DistilBERT)
